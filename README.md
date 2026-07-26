@@ -1,7 +1,7 @@
 <!-- =======================================================
   🚀 ULTRA-PREMIUM GITHUB PROFILE README
   Name: Reddy Kiranmayi (@rkiranmayisai)
-  Theme: Live Moving Typing Animation Subtitle
+  Theme: Luxury Multi-Color Combination (100% Zero Raw Code Bugs)
 ======================================================= -->
 
 <div align="center">
@@ -201,94 +201,48 @@
 
 <br />
 
-<!-- 💎 ULTRA-PREMIUM CUSTOM HTML/CSS GRADIENT PROGRESS METERS (ZERO DEPENDENCIES) -->
+<!-- 100% BULLETPROOF GRAPHIC BADGES PROGRESS METERS (ZERO RAW CODE BUGS) -->
 <table border="0" width="100%">
   <tr>
-    <!-- LEFT SIDE: CUSTOM GRADIENT PROGRESS METERS -->
-    <td width="52%" valign="top" style="background: #161b22; border: 1.5px solid #8a2be2; border-radius: 12px; padding: 20px;">
-      <h3 style="color: #00e5ff; font-family: sans-serif; margin-top: 0; margin-bottom: 16px;">🔥 Core Engineering Proficiency</h3>
-
-      <!-- Skill 1 -->
-      <div style="margin-bottom: 14px;">
-        <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-          <span style="color: #ffffff; font-weight: 700; font-size: 0.9rem;">☕ Java & Data Structures</span>
-          <span style="color: #ff1744; font-weight: 800; font-size: 0.9rem;">90%</span>
-        </div>
-        <div style="background: #0d1117; border-radius: 10px; height: 10px; width: 100%; overflow: hidden; border: 1px solid #30363d;">
-          <div style="background: linear-gradient(90deg, #ff1744, #e84393); height: 100%; width: 90%; border-radius: 10px;"></div>
-        </div>
-      </div>
-
-      <!-- Skill 2 -->
-      <div style="margin-bottom: 14px;">
-        <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-          <span style="color: #ffffff; font-weight: 700; font-size: 0.9rem;">🌐 HTML5, CSS3 & JavaScript</span>
-          <span style="color: #00e5ff; font-weight: 800; font-size: 0.9rem;">85%</span>
-        </div>
-        <div style="background: #0d1117; border-radius: 10px; height: 10px; width: 100%; overflow: hidden; border: 1px solid #30363d;">
-          <div style="background: linear-gradient(90deg, #00e5ff, #8a2be2); height: 100%; width: 85%; border-radius: 10px;"></div>
-        </div>
-      </div>
-
-      <!-- Skill 3 -->
-      <div style="margin-bottom: 14px;">
-        <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-          <span style="color: #ffffff; font-weight: 700; font-size: 0.9rem;">🐍 Python & Data Science</span>
-          <span style="color: #ffd700; font-weight: 800; font-size: 0.9rem;">80%</span>
-        </div>
-        <div style="background: #0d1117; border-radius: 10px; height: 10px; width: 100%; overflow: hidden; border: 1px solid #30363d;">
-          <div style="background: linear-gradient(90deg, #ffd700, #ff1744); height: 100%; width: 80%; border-radius: 10px;"></div>
-        </div>
-      </div>
-
-      <!-- Skill 4 -->
-      <div style="margin-bottom: 14px;">
-        <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-          <span style="color: #ffffff; font-weight: 700; font-size: 0.9rem;">⚛️ React.js & Modern Frontend</span>
-          <span style="color: #61dafb; font-weight: 800; font-size: 0.9rem;">80%</span>
-        </div>
-        <div style="background: #0d1117; border-radius: 10px; height: 10px; width: 100%; overflow: hidden; border: 1px solid #30363d;">
-          <div style="background: linear-gradient(90deg, #61dafb, #00e5ff); height: 100%; width: 80%; border-radius: 10px;"></div>
-        </div>
-      </div>
-
-      <!-- Skill 5 -->
-      <div>
-        <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-          <span style="color: #ffffff; font-weight: 700; font-size: 0.9rem;">🟢 Node.js, Express & MySQL</span>
-          <span style="color: #00e676; font-weight: 800; font-size: 0.9rem;">70%</span>
-        </div>
-        <div style="background: #0d1117; border-radius: 10px; height: 10px; width: 100%; overflow: hidden; border: 1px solid #30363d;">
-          <div style="background: linear-gradient(90deg, #00e676, #00e5ff); height: 100%; width: 70%; border-radius: 10px;"></div>
-        </div>
-      </div>
+    <!-- LEFT SIDE: PROGRESS METERS -->
+    <td width="50%" valign="top">
+      <h3>🔥 Visual Skill Meters</h3>
+      <p style="margin-bottom: 12px;">
+        <img src="https://img.shields.io/badge/JAVA_%26_DSA-[█████████░]_90%25-FF1744?style=for-the-badge&logo=openjdk&logoColor=white" width="100%" />
+      </p>
+      <p style="margin-bottom: 12px;">
+        <img src="https://img.shields.io/badge/HTML5_%26_CSS3-[████████½░]_85%25-00E5FF?style=for-the-badge&logo=html5&logoColor=black" width="100%" />
+      </p>
+      <p style="margin-bottom: 12px;">
+        <img src="https://img.shields.io/badge/PYTHON_%26_DATA_SCI-[████████░░]_80%25-FFD700?style=for-the-badge&logo=python&logoColor=black" width="100%" />
+      </p>
+      <p style="margin-bottom: 12px;">
+        <img src="https://img.shields.io/badge/REACT_%26_FRONTEND-[████████░░]_80%25-61DAFB?style=for-the-badge&logo=react&logoColor=black" width="100%" />
+      </p>
+      <p style="margin-bottom: 12px;">
+        <img src="https://img.shields.io/badge/NODE_%26_EXPRESS-[███████░░░]_70%25-00E676?style=for-the-badge&logo=nodedotjs&logoColor=white" width="100%" />
+      </p>
     </td>
 
     <!-- RIGHT SIDE: TECH ARSENAL BADGES -->
-    <td width="48%" valign="top" style="padding-left: 15px;">
-      <table border="0" width="100%">
-        <tr>
-          <td style="background: #161b22; border: 1.5px solid #00e5ff; border-radius: 12px; padding: 20px;" align="center">
-            <h3 style="color: #ff1744; font-family: sans-serif; margin-top: 0; margin-bottom: 16px;">🛠️ Tech Stack Arsenal</h3>
-            <p style="margin-bottom: 12px;">
-              <img src="https://img.shields.io/badge/JAVA-FF1744?style=for-the-badge&logo=openjdk&logoColor=white" />
-              <img src="https://img.shields.io/badge/PYTHON-00E5FF?style=for-the-badge&logo=python&logoColor=black" />
-            </p>
-            <p style="margin-bottom: 12px;">
-              <img src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-              <img src="https://img.shields.io/badge/NODE.JS-8A2BE2?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-            </p>
-            <p style="margin-bottom: 12px;">
-              <img src="https://img.shields.io/badge/PANDAS-E84393?style=for-the-badge&logo=pandas&logoColor=white" />
-              <img src="https://img.shields.io/badge/JAVASCRIPT-FFD700?style=for-the-badge&logo=javascript&logoColor=black" />
-            </p>
-            <p style="margin-bottom: 0;">
-              <img src="https://img.shields.io/badge/MYSQL-00E676?style=for-the-badge&logo=mysql&logoColor=black" />
-              <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white" />
-            </p>
-          </td>
-        </tr>
-      </table>
+    <td width="50%" valign="top" align="center">
+      <h3>🛠️ Tech Stack Arsenal</h3>
+      <p style="margin-bottom: 10px;">
+        <img src="https://img.shields.io/badge/JAVA-FF1744?style=for-the-badge&logo=openjdk&logoColor=white" />
+        <img src="https://img.shields.io/badge/PYTHON-00E5FF?style=for-the-badge&logo=python&logoColor=black" />
+      </p>
+      <p style="margin-bottom: 10px;">
+        <img src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/NODE.JS-8A2BE2?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+      </p>
+      <p style="margin-bottom: 10px;">
+        <img src="https://img.shields.io/badge/PANDAS-E84393?style=for-the-badge&logo=pandas&logoColor=white" />
+        <img src="https://img.shields.io/badge/JAVASCRIPT-FFD700?style=for-the-badge&logo=javascript&logoColor=black" />
+      </p>
+      <p style="margin-bottom: 0;">
+        <img src="https://img.shields.io/badge/MYSQL-00E676?style=for-the-badge&logo=mysql&logoColor=black" />
+        <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white" />
+      </p>
     </td>
   </tr>
 </table>
