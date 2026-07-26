@@ -1,12 +1,12 @@
 <!-- =======================================================
-  🚀 ULTRA-PREMIUM GITHUB PROFILE README
+  🚀 ULTRA-PREMIUM & LUXURY GITHUB PROFILE README
   Name: Reddy Kiranmayi (@rkiranmayisai)
-  100% GitHub Native Compatible (Zero Raw HTML Bugs)
+  Theme: Luxury Multi-Color Combination (Red + Cyan + Magenta + Gold)
 ======================================================= -->
 
 <div align="center">
   <!-- 🌌 Animated Luxury Multi-Color Waving Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=ff1744,e84393,8a2be2,00e5ff,ff1744&height=230&section=header&text=Reddy%20Kiranmayi&fontSize=58&fontColor=ffffff&fontAlignY=38&animation=twinkle" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=ff1744,e84393,8a2be2,00e5ff,ff1744&height=225&section=header&text=Reddy%20Kiranmayi&fontSize=56&fontColor=ffffff&fontAlignY=38&animation=twinkle" width="100%" alt="Header Banner" />
 
   <br /><br />
 
@@ -39,71 +39,75 @@
   <br />
 
   <!-- Multi-Color Gradient Divider -->
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+  <div style="height: 4px; width: 100%; background: linear-gradient(90deg, #ff1744, #e84393, #8a2be2, #00e5ff, #ff1744); border-radius: 4px; margin: 15px 0;"></div>
 </div>
 
 <br />
 
-<!-- 💬 FEATURED QUOTE -->
-<blockquote align="center">
-  <h3 style="color: #ff1744;"><i>“There's nothing more permanent than a temporary hack.”</i></h3>
-  <p style="color: #00e5ff;"><b>— Kyle Simpson</b></p>
-</blockquote>
+<!-- 💬 FEATURED DEVELOPER QUOTE CARD -->
+<table border="0" width="100%">
+  <tr>
+    <td align="center" style="background-color: #161b22; border: 1.5px solid #ff1744; border-radius: 12px; padding: 20px;">
+      <h3 style="color: #ff1744; font-style: italic; font-size: 1.1rem; margin-bottom: 6px;">“There's nothing more permanent than a temporary hack.”</h3>
+      <p style="color: #00e5ff; font-weight: 600; font-size: 0.9rem; margin: 0;">— Kyle Simpson</p>
+    </td>
+  </tr>
+</table>
 
 <br />
 
-<!-- ⚡ INTERACTIVE TERMINAL HEADER -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&text=⚡%20Interactive%20Terminal%20(%24%20npx%20rkiranmayisai)&fontSize=22&fontColor=00e5ff&height=50&stroke=ff1744&strokeWidth=2" width="100%" />
-</div>
-
-<br />
-
-```bash
-$ npx rkiranmayisai --fetch-profile
-
-✔ Downloading developer profile... [====================] 100%
-
-┌────────────────────────────────────────────────────────────────────────┐
-│ Name       : Reddy Kiranmayi                                           │
-│ Education  : B.Tech CSE @ ACE Engineering College                      │
-│ Core Stack : Java | Python | React | Node.js | MySQL                    │
-│ Ranks      : GFG College Rank #2 🏆 | CodeChef 2-Star ⭐                 │
-│ DSA Solved : 500+ Problems (LeetCode 1238 + GFG 300+)                  │
-│ Status     : Open for Internships & Software Engineering Roles 🚀       │
-└────────────────────────────────────────────────────────────────────────┘
-```
-
-<br />
-
-<!-- 👩‍💻 IDENTITY MATRIX HEADER -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&text=👩‍💻%20Identity%20Matrix&fontSize=22&fontColor=ff1744&height=50&stroke=e84393&strokeWidth=2" width="100%" />
+<!-- ⚡ INTERACTIVE TERMINAL PROFILE HEADER -->
+<div style="background: linear-gradient(90deg, #161b22, #1f242c); border-left: 5px solid #00e5ff; border-right: 5px solid #ff1744; border-radius: 10px; padding: 12px 18px; text-align: center;">
+  <h2 style="color: #00e5ff; font-size: 1.25rem; font-family: monospace; margin: 0;">⚡ Interactive Terminal ($ npx rkiranmayisai)</h2>
 </div>
 
 <br />
 
 <table border="0" width="100%">
   <tr>
-    <td width="55%" valign="top">
+    <td style="background-color: #0d1117; border: 1.5px solid #ff1744; border-radius: 12px; padding: 18px;">
+      <pre style="white-space: pre-wrap; word-break: break-word; color: #00e5ff; font-family: monospace; font-size: 0.88rem; margin: 0;"><code><span style="color: #ff1744;">$</span> npx rkiranmayisai --fetch-profile
 
-```javascript
-const kiranmayi = {
-    name: "Reddy Kiranmayi",
-    pronouns: "She/Her",
-    education: "B.Tech CSE @ ACE Engineering College 🎓",
-    specialization: "Full Stack & Data Science 💻",
-    achievements: [
-        "GFG College Rank #2 🏆",
-        "CodeChef 2-Star ⭐",
-        "500+ DSA Solved ⚡"
-    ],
-    motto: "Driven to build impactful tech with coding excellence ^_^"
-};
-```
+<span style="color: #50fa7b;">✔ Downloading developer profile...</span> [====================] 100%
 
+┌────────────────────────────────────────────────────────────────────────┐
+│ <span style="color: #ffd700; font-weight: bold;">Name</span>       : <span style="color: #ffffff; font-weight: bold;">Reddy Kiranmayi</span>                                     │
+│ <span style="color: #e84393;">Education</span>  : <span style="color: #00e5ff;">B.Tech CSE @ ACE Engineering College</span>                  │
+│ <span style="color: #e84393;">Core Stack</span> : <span style="color: #ff1744;">Java | Python | React | Node.js | MySQL</span>                │
+│ <span style="color: #e84393;">Ranks</span>      : <span style="color: #50fa7b;">GFG College Rank #2 🏆 | CodeChef 2-Star ⭐</span>               │
+│ <span style="color: #e84393;">DSA Solved</span> : <span style="color: #bd93f9;">500+ Problems (LeetCode 1238 + GFG 300+)</span>                │
+│ <span style="color: #e84393;">Status</span>     : <span style="color: #ff1744;">Open for Internships & Software Engineering Roles 🚀</span>   │
+└────────────────────────────────────────────────────────────────────────┘</code></pre>
     </td>
-    <td width="45%" align="center" valign="middle">
+  </tr>
+</table>
+
+<br />
+
+<!-- 👩‍💻 IDENTITY MATRIX HEADER -->
+<div style="background: linear-gradient(90deg, #161b22, #1f242c); border-left: 5px solid #ff1744; border-right: 5px solid #e84393; border-radius: 10px; padding: 12px 18px; text-align: center;">
+  <h2 style="color: #ff1744; font-size: 1.25rem; font-family: sans-serif; margin: 0;">👩‍💻 Identity Matrix</h2>
+</div>
+
+<br />
+
+<table border="0" width="100%">
+  <tr>
+    <td width="55%" valign="top" style="background-color: #161b22; border-radius: 10px; padding: 15px;">
+      <pre style="white-space: pre-wrap; word-break: break-word; color: #c9d1d9; font-family: monospace; font-size: 0.88rem; margin: 0;"><code><span style="color: #ff1744;">const</span> <span style="color: #00e5ff;">kiranmayi</span> = {
+    <span style="color: #e84393;">name</span>: <span style="color: #ffffff;">"Reddy Kiranmayi"</span>,
+    <span style="color: #e84393;">pronouns</span>: <span style="color: #ffffff;">"She/Her"</span>,
+    <span style="color: #e84393;">education</span>: <span style="color: #ffffff;">"B.Tech CSE @ ACE Engineering College 🎓"</span>,
+    <span style="color: #e84393;">specialization</span>: <span style="color: #ffffff;">"Full Stack & Data Science 💻"</span>,
+    <span style="color: #e84393;">achievements</span>: [
+        <span style="color: #ffd700;">"GFG College Rank #2 🏆"</span>,
+        <span style="color: #00e5ff;">"CodeChef 2-Star ⭐"</span>,
+        <span style="color: #ff1744;">"500+ DSA Solved ⚡"</span>
+    ],
+    <span style="color: #e84393;">motto</span>: <span style="color: #ffffff;">"Driven to build impactful tech with coding excellence ^_^"</span>
+};</code></pre>
+    </td>
+    <td width="45%" align="center" valign="middle" style="padding-left: 15px;">
       <!-- 🎬 MOVING ANIMATED FEMALE DEVELOPER GIF -->
       <img src="coder_girl.gif" width="100%" alt="Animated Female Developer Workstation" />
     </td>
@@ -113,38 +117,51 @@ const kiranmayi = {
 <br />
 
 <!-- 🔄 DAILY ENGINEERING WORKFLOW PIPELINE HEADER -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&text=🔄%20Daily%20Engineering%20Workflow%20Pipeline&fontSize=22&fontColor=e84393&height=50&stroke=8a2be2&strokeWidth=2" width="100%" />
+<div style="background: linear-gradient(90deg, #161b22, #1f242c); border-left: 5px solid #e84393; border-right: 5px solid #8a2be2; border-radius: 10px; padding: 12px 18px; text-align: center;">
+  <h2 style="color: #e84393; font-size: 1.25rem; font-family: sans-serif; margin: 0;">🔄 Daily Engineering Workflow Pipeline</h2>
 </div>
 
 <br />
 
+<!-- STEP 1: MORNING -->
 <table border="0" width="100%">
   <tr>
-    <td style="background-color: #161b22; border-left: 6px solid #ffa116; padding: 15px;">
-      <h3 style="color: #ffa116;">🌅 MORNING: DSA Grind (09:00 AM)</h3>
-      <p>Solving complex Data Structures & Algorithms on LeetCode & GeeksforGeeks.</p>
-      <p>
+    <td style="background-color: #161b22; border-left: 6px solid #ffa116; border-radius: 10px; padding: 18px;">
+      <h3 style="color: #ffa116; margin-bottom: 6px;">🌅 MORNING: DSA Grind (09:00 AM)</h3>
+      <p style="color: #c9d1d9; margin-bottom: 10px;">Solving complex Data Structures & Algorithms on LeetCode & GeeksforGeeks.</p>
+      <p style="margin: 0;">
         <img src="https://img.shields.io/badge/LeetCode-1238_Rating-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
         <img src="https://img.shields.io/badge/GFG-Rank_%232-FF1744?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
       </p>
     </td>
   </tr>
+</table>
+
+<br />
+
+<!-- STEP 2: AFTERNOON -->
+<table border="0" width="100%">
   <tr>
-    <td style="background-color: #161b22; border-left: 6px solid #ff1744; padding: 15px;">
-      <h3 style="color: #ff1744;">💻 AFTERNOON: Full Stack Development (02:00 PM)</h3>
-      <p>Architecting interactive React frontends and robust Node.js / Express APIs.</p>
-      <p>
+    <td style="background-color: #161b22; border-left: 6px solid #ff1744; border-radius: 10px; padding: 18px;">
+      <h3 style="color: #ff1744; margin-bottom: 6px;">💻 AFTERNOON: Full Stack Development (02:00 PM)</h3>
+      <p style="color: #c9d1d9; margin-bottom: 10px;">Architecting interactive React frontends and robust Node.js / Express APIs.</p>
+      <p style="margin: 0;">
         <img src="https://img.shields.io/badge/REACT-Frontend-FF1744?style=for-the-badge&logo=react&logoColor=white" />
         <img src="https://img.shields.io/badge/NODE.JS-Backend-8A2BE2?style=for-the-badge&logo=nodedotjs&logoColor=white" />
       </p>
     </td>
   </tr>
+</table>
+
+<br />
+
+<!-- STEP 3: EVENING -->
+<table border="0" width="100%">
   <tr>
-    <td style="background-color: #161b22; border-left: 6px solid #00e5ff; padding: 15px;">
-      <h3 style="color: #00e5ff;">🌙 EVENING: Data Science & Analytics (07:00 PM)</h3>
-      <p>Preprocessing datasets with Pandas & generating spatial crime heatmaps with Seaborn.</p>
-      <p>
+    <td style="background-color: #161b22; border-left: 6px solid #00e5ff; border-radius: 10px; padding: 18px;">
+      <h3 style="color: #00e5ff; margin-bottom: 6px;">🌙 EVENING: Data Science & Analytics (07:00 PM)</h3>
+      <p style="color: #c9d1d9; margin-bottom: 10px;">Preprocessing datasets with Pandas & generating spatial crime heatmaps with Seaborn.</p>
+      <p style="margin: 0;">
         <img src="https://img.shields.io/badge/PYTHON-Data_Science-00E5FF?style=for-the-badge&logo=python&logoColor=black" />
         <img src="https://img.shields.io/badge/PANDAS-Analytics-E84393?style=for-the-badge&logo=pandas&logoColor=white" />
       </p>
@@ -155,51 +172,51 @@ const kiranmayi = {
 <br />
 
 <!-- ⚙️ TECH STACK & GRAPHIC SKILL MATRIX HEADER -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&text=⚙️%20Tech%20Stack%20%26%20Graphic%20Skill%20Matrix&fontSize=22&fontColor=8a2be2&height=50&stroke=00e5ff&strokeWidth=2" width="100%" />
+<div style="background: linear-gradient(90deg, #161b22, #1f242c); border-left: 5px solid #8a2be2; border-right: 5px solid #00e5ff; border-radius: 10px; padding: 12px 18px; text-align: center;">
+  <h2 style="color: #8a2be2; font-size: 1.25rem; font-family: sans-serif; margin: 0;">⚙️ Tech Stack & Graphic Skill Matrix</h2>
 </div>
 
 <br />
 
 <table border="0" width="100%">
   <tr>
-    <td width="50%" valign="top" style="padding: 10px;">
-      <h3 style="color: #ff1744;">🔥 Visual Skill Meters</h3>
-      <br />
-      <b>☕ Java & Data Structures (90%)</b><br />
+    <td width="50%" valign="top" style="background-color: #161b22; border-radius: 10px; padding: 18px;">
+      <h3 style="color: #ff1744; margin-bottom: 12px;">🔥 Visual Skill Meters</h3>
+      
+      <p style="color: #c9d1d9; margin-bottom: 4px;"><b>☕ Java & Data Structures (90%)</b></p>
       <img src="https://geps.dev/progress/90?dangerColor=8a2be2&warningColor=e84393&successColor=FF1744" width="100%" alt="90%" />
       <br /><br />
-      <b>🌐 HTML5 & CSS3 (85%)</b><br />
+
+      <p style="color: #c9d1d9; margin-bottom: 4px;"><b>🌐 HTML5 & CSS3 (85%)</b></p>
       <img src="https://geps.dev/progress/85?dangerColor=8a2be2&warningColor=e84393&successColor=00E5FF" width="100%" alt="85%" />
       <br /><br />
-      <b>🐍 Python & Data Science (80%)</b><br />
+
+      <p style="color: #c9d1d9; margin-bottom: 4px;"><b>🐍 Python & Data Science (80%)</b></p>
       <img src="https://geps.dev/progress/80?dangerColor=8a2be2&warningColor=e84393&successColor=FFD700" width="100%" alt="80%" />
       <br /><br />
-      <b>⚛️ React & Frontend (80%)</b><br />
+
+      <p style="color: #c9d1d9; margin-bottom: 4px;"><b>⚛️ React & Frontend (80%)</b></p>
       <img src="https://geps.dev/progress/80?dangerColor=8a2be2&warningColor=e84393&successColor=61DAFB" width="100%" alt="80%" />
       <br /><br />
-      <b>🟢 Node.js & Express (70%)</b><br />
+
+      <p style="color: #c9d1d9; margin-bottom: 4px;"><b>🟢 Node.js & Express (70%)</b></p>
       <img src="https://geps.dev/progress/70?dangerColor=8a2be2&warningColor=e84393&successColor=00E676" width="100%" alt="70%" />
     </td>
-    <td width="50%" valign="top" style="padding: 10px;">
-      <h3 style="color: #00e5ff;">🛠️ Tech Arsenal</h3>
-      <br />
-      <p>
+    <td width="50%" valign="top" style="background-color: #161b22; border-radius: 10px; padding: 18px; margin-left: 10px;">
+      <h3 style="color: #00e5ff; margin-bottom: 12px;">🛠️ Tech Arsenal</h3>
+      <p style="margin-bottom: 10px;">
         <img src="https://img.shields.io/badge/JAVA-FF1744?style=for-the-badge&logo=openjdk&logoColor=white" />
         <img src="https://img.shields.io/badge/PYTHON-00E5FF?style=for-the-badge&logo=python&logoColor=black" />
       </p>
-      <br />
-      <p>
+      <p style="margin-bottom: 10px;">
         <img src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
         <img src="https://img.shields.io/badge/NODE.JS-8A2BE2?style=for-the-badge&logo=nodedotjs&logoColor=white" />
       </p>
-      <br />
-      <p>
+      <p style="margin-bottom: 10px;">
         <img src="https://img.shields.io/badge/PANDAS-E84393?style=for-the-badge&logo=pandas&logoColor=white" />
         <img src="https://img.shields.io/badge/JAVASCRIPT-FFD700?style=for-the-badge&logo=javascript&logoColor=black" />
       </p>
-      <br />
-      <p>
+      <p style="margin-bottom: 10px;">
         <img src="https://img.shields.io/badge/MYSQL-00E676?style=for-the-badge&logo=mysql&logoColor=black" />
         <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white" />
       </p>
@@ -210,8 +227,8 @@ const kiranmayi = {
 <br />
 
 <!-- 🏆 BADGES & COMPETITIVE RANKS HEADER -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&text=🏆%20Badges%20%26%20Competitive%20Ranks&fontSize=22&fontColor=ffd700&height=50&stroke=ff1744&strokeWidth=2" width="100%" />
+<div style="background: linear-gradient(90deg, #161b22, #1f242c); border-left: 5px solid #ffd700; border-right: 5px solid #ff1744; border-radius: 10px; padding: 12px 18px; text-align: center;">
+  <h2 style="color: #ffd700; font-size: 1.25rem; font-family: sans-serif; margin: 0;">🏆 Badges & Competitive Ranks</h2>
 </div>
 
 <br />
@@ -230,29 +247,36 @@ const kiranmayi = {
 <br />
 
 <!-- 🚀 ARCHITECTURAL PROJECT SHOWCASE HEADER -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&text=🚀%20Architectural%20Project%20Showcase&fontSize=22&fontColor=00e5ff&height=50&stroke=e84393&strokeWidth=2" width="100%" />
+<div style="background: linear-gradient(90deg, #161b22, #1f242c); border-left: 5px solid #00e5ff; border-right: 5px solid #e84393; border-radius: 10px; padding: 12px 18px; text-align: center;">
+  <h2 style="color: #00e5ff; font-size: 1.25rem; font-family: sans-serif; margin: 0;">🚀 Architectural Project Showcase</h2>
 </div>
 
 <br />
 
+<!-- PROJECT 1 -->
 <table border="0" width="100%">
   <tr>
-    <td style="background-color: #161b22; border-left: 5px solid #ff1744; padding: 18px;">
-      <h3 style="color: #ff1744;">🚨 Project 1: Crime Hotspot Detection using Crowdsourced Data</h3>
-      <p>Data analysis system using Pandas, Seaborn & Matplotlib for dataset preprocessing, trend analysis, and crime heatmap generation.</p>
-      <p>
+    <td style="background-color: #161b22; border-left: 5px solid #ff1744; border-radius: 10px; padding: 18px;">
+      <h3 style="color: #ff1744; margin-bottom: 6px;">🚨 Project 1: Crime Hotspot Detection using Crowdsourced Data</h3>
+      <p style="color: #c9d1d9; margin-bottom: 10px;">Data analysis system using Pandas, Seaborn & Matplotlib for dataset preprocessing, trend analysis, and crime heatmap generation.</p>
+      <p style="margin: 0;">
         <a href="https://github.com/rkiranmayisai/detection-of-crime-hotspot-website" target="_blank">
           <img src="https://img.shields.io/badge/View_Repository-FF1744?style=flat-square&logo=github&logoColor=white" />
         </a>
       </p>
     </td>
   </tr>
+</table>
+
+<br />
+
+<!-- PROJECT 2 -->
+<table border="0" width="100%">
   <tr>
-    <td style="background-color: #161b22; border-left: 5px solid #00e5ff; padding: 18px;">
-      <h3 style="color: #00e5ff;">🌐 Project 2: Personal Portfolio Website</h3>
-      <p>Responsive personal portfolio site with interactive credentials timeline, DSA stats, and project showcase.</p>
-      <p>
+    <td style="background-color: #161b22; border-left: 5px solid #00e5ff; border-radius: 10px; padding: 18px;">
+      <h3 style="color: #00e5ff; margin-bottom: 6px;">🌐 Project 2: Personal Portfolio Website</h3>
+      <p style="color: #c9d1d9; margin-bottom: 10px;">Responsive personal portfolio site with interactive credentials timeline, DSA stats, and project showcase.</p>
+      <p style="margin: 0;">
         <a href="https://github.com/rkiranmayisai/portfolio" target="_blank">
           <img src="https://img.shields.io/badge/View_Repository-00E5FF?style=flat-square&logo=github&logoColor=black" />
         </a>
@@ -266,5 +290,5 @@ const kiranmayi = {
 <!-- LUXURY MULTI-COLOR WAVE FOOTER -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=ff1744,e84393,8a2be2,00e5ff,ff1744&height=120&section=footer" width="100%" alt="Footer Wave" />
-  <p><b>Created by Reddy Kiranmayi | Always Learning & Building 🚀</b></p>
+  <p style="color: #c9d1d9;"><b>Created by Reddy Kiranmayi | Always Learning & Building 🚀</b></p>
 </div>
