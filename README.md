@@ -1,7 +1,7 @@
 <!-- =======================================================
   🚀 ULTRA-PREMIUM GITHUB PROFILE README
   Name: Reddy Kiranmayi (@rkiranmayisai)
-  Theme: Luxury Multi-Color Combination (100% Zero Raw Code Bugs)
+  Theme: Bulletproof Pure HTML Tags (0% Raw Markdown Bugs, 0% Broken Images)
 ======================================================= -->
 
 <div align="center">
@@ -201,32 +201,32 @@
 
 <br />
 
-<!-- 100% BULLETPROOF GRAPHIC BADGES PROGRESS METERS (ZERO RAW CODE BUGS) -->
+<!-- 100% BULLETPROOF PURE HTML TABLE FOR SKILL METERS AND TECH ARSENAL -->
 <table border="0" width="100%">
   <tr>
     <!-- LEFT SIDE: PROGRESS METERS -->
     <td width="50%" valign="top">
-      <h3>🔥 Visual Skill Meters</h3>
+      <h3 style="color: #ff1744;">🔥 Visual Skill Meters</h3>
       <p style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/JAVA_%26_DSA-[█████████░]_90%25-FF1744?style=for-the-badge&logo=openjdk&logoColor=white" width="100%" />
+        <img src="https://img.shields.io/badge/JAVA_%26_DSA-[█████████░]_90%25-FF1744?style=for-the-badge&logo=openjdk&logoColor=white" width="100%" alt="Java" />
       </p>
       <p style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/HTML5_%26_CSS3-[████████½░]_85%25-00E5FF?style=for-the-badge&logo=html5&logoColor=black" width="100%" />
+        <img src="https://img.shields.io/badge/HTML5_%26_CSS3-[████████½░]_85%25-00E5FF?style=for-the-badge&logo=html5&logoColor=black" width="100%" alt="HTML" />
       </p>
       <p style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/PYTHON_%26_DATA_SCI-[████████░░]_80%25-FFD700?style=for-the-badge&logo=python&logoColor=black" width="100%" />
+        <img src="https://img.shields.io/badge/PYTHON_%26_DATA_SCI-[████████░░]_80%25-FFD700?style=for-the-badge&logo=python&logoColor=black" width="100%" alt="Python" />
       </p>
       <p style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/REACT_%26_FRONTEND-[████████░░]_80%25-61DAFB?style=for-the-badge&logo=react&logoColor=black" width="100%" />
+        <img src="https://img.shields.io/badge/REACT_%26_FRONTEND-[████████░░]_80%25-61DAFB?style=for-the-badge&logo=react&logoColor=black" width="100%" alt="React" />
       </p>
       <p style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/NODE_%26_EXPRESS-[███████░░░]_70%25-00E676?style=for-the-badge&logo=nodedotjs&logoColor=white" width="100%" />
+        <img src="https://img.shields.io/badge/NODE_%26_EXPRESS-[███████░░░]_70%25-00E676?style=for-the-badge&logo=nodedotjs&logoColor=white" width="100%" alt="Node" />
       </p>
     </td>
 
     <!-- RIGHT SIDE: TECH ARSENAL BADGES -->
     <td width="50%" valign="top" align="center">
-      <h3>🛠️ Tech Stack Arsenal</h3>
+      <h3 style="color: #00e5ff;">🛠️ Tech Stack Arsenal</h3>
       <p style="margin-bottom: 10px;">
         <img src="https://img.shields.io/badge/JAVA-FF1744?style=for-the-badge&logo=openjdk&logoColor=white" />
         <img src="https://img.shields.io/badge/PYTHON-00E5FF?style=for-the-badge&logo=python&logoColor=black" />
