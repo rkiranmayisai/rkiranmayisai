@@ -8,12 +8,12 @@
   <!-- 🌌 Animated Luxury Multi-Color Waving Header Banner -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=ff1744,e84393,8a2be2,00e5ff,ff1744&height=230&section=header&text=Reddy%20Kiranmayi&fontSize=58&fontColor=ffffff&fontAlignY=38&animation=twinkle" width="100%" alt="Header Banner" />
 
-  <br />
+  <br /><br />
 
-  <!-- ⌨️ Responsive Typing Subtitle (Multi-Color Accent) -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=FF1744&center=true&vCenter=true&width=480&lines=B.Tech+CSE+Student+%40+ACE+🎓;Competitive+Programmer+%7C+GFG+Rank+%232+🏆;Full+Stack+%2B+Data+Science+Dev+💻;Building+Intelligent+Tech+Systems+🚀" width="100%" style="max-width: 480px;" alt="Typing Subtitle" />
-  </a>
+  <!-- 🎓 Bulletproof HTML Styled Subtitle Box -->
+  <div align="center" style="background: #161b22; border: 1.5px solid #ff1744; border-radius: 25px; padding: 10px 24px; display: inline-block;">
+    <span style="color: #ff1744; font-weight: 700; font-family: 'Fira Code', monospace; font-size: 0.95rem;">🎓 B.Tech CSE Student @ ACE &nbsp;•&nbsp; 🏆 GFG Rank #2 &nbsp;•&nbsp; 💻 Full Stack & Data Science &nbsp;•&nbsp; 🚀 500+ DSA</span>
+  </div>
 
   <br /><br />
 
