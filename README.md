@@ -5,7 +5,7 @@
 
 <br />
 
-<!-- ⚡ Animated Dynamic Typing Effect with Custom Colors -->
+<!-- ⚡ Animated Dynamic Typing Effect -->
 <div align="center">
   <a href="https://github.com/rkiranmayisai">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Data+Science+Enthusiast;AI+%26+Machine+Learning+Explorer" alt="Typing SVG" />
@@ -38,10 +38,20 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
----
+<br />
 
-<!-- 📊 GitHub Profile Stats Cards -->
+<!-- 📈 GitHub Contribution Activity Graph -->
+<h3 align="center">📈 GitHub Activity Graph</h3>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rkiranmayisai&show_icons=true&theme=radial&hide_border=true&title_color=38BDF8&icon_color=38BDF8" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rkiranmayisai&layout=compact&theme=radial&hide_border=true&title_color=38BDF8" height="165" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rkiranmayisai&theme=github-dark" width="100%" />
 </div>
+
+<br />
+
+<!-- 📊 Profile Views & Stats Badges -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=rkiranmayisai&color=38BDF8&style=for-the-badge&label=PROFILE+VIEWS" />
+  <img src="https://img.shields.io/github/followers/rkiranmayisai?label=Followers&style=for-the-badge&color=38BDF8&logo=github" />
+  <img src="https://img.shields.io/github/stars/rkiranmayisai?label=Total+Stars&style=for-the-badge&color=38BDF8&logo=github" />
+</p>
