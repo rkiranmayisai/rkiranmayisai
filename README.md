@@ -1,53 +1,48 @@
 <div align="center">
-<table border="0" width="100%">
-<tr>
-<td align="center" style="background: linear-gradient(135deg, #ff1744 0%, #e84393 30%, #8a2be2 70%, #00e5ff 100%); padding: 35px 20px; border-radius: 16px;">
-<h1 style="color: #ffffff; font-size: 2.6rem; font-family: sans-serif; font-weight: 800; margin: 0; text-shadow: 0 4px 12px rgba(0,0,0,0.5);">Reddy Kiranmayi</h1>
-<p style="color: #ffffff; font-size: 1.1rem; font-weight: 600; margin-top: 8px; margin-bottom: 0;">Full Stack Developer & Data Science Enthusiast</p>
-</td>
-</tr>
-</table>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,5,30&height=200&section=header&text=Reddy%20Kiranmayi&fontSize=42&fontColor=ffffff&animation=fadeIn&subtext=Full%20Stack%20Developer%20%26%20Data%20Science%20Enthusiast&subfontSize=18&subtextY=75" width="100%" />
+</div>
+
 <br /><br />
+
 <div align="center">
-<a href="https://github.com/rkiranmayisai">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2500&pause=800&color=FF1744&center=true&vCenter=true&width=750&lines=%F0%9F%8E%93+B.Tech+CSE+Student+%40+ACE+Engineering+College;%F0%9F%8F%86+GFG+College+Rank+%232+%E2%80%A2+CodeChef+2-Star;%F0%9F%92%BB+Full+Stack+%26+Data+Science+Developer;%F0%9F%9A%80+500%2B+DSA+Problems+Solved+(LeetCode+%2B+GFG)" alt="Live Moving Typing Animation" />
-</a>
+  <a href="https://github.com/rkiranmayisai">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2500&pause=800&color=FF1744&center=true&vCenter=true&width=750&lines=%F0%9F%8E%93+B.Tech+CSE+Student+%40+ACE+Engineering+College;%F0%9F%8F%86+GFG+College+Rank+%232+%E2%80%A2+CodeChef+2-Star;%F0%9F%92%BB+Full+Stack+%26+Data+Science+Developer;%F0%9F%9A%80+500%2B+DSA+Problems+Solved+(LeetCode+%2B+GFG)" alt="Live Moving Typing Animation" />
+  </a>
 </div>
+
 <br />
+
 <p align="center">
-<a href="https://rkiranmayisai.github.io/portfolio/" target="_blank">
-<img src="https://img.shields.io/badge/PORTFOLIO-FF1744?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" />
-</a>
-<a href="https://github.com/rkiranmayisai" target="_blank">
-<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-<a href="https://leetcode.com/u/rkiranmayisai/" target="_blank">
-<img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
-</a>
-<a href="https://www.codechef.com/users/rkiranmayisai" target="_blank">
-<img src="https://img.shields.io/badge/CODECHEF-8A2BE2?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" />
-</a>
-<a href="https://www.geeksforgeeks.org/profile/rkiranmayi36t?tab=activity" target="_blank">
-<img src="https://img.shields.io/badge/GEEKSFORGEEKS-00E5FF?style=for-the-badge&logo=geeksforgeeks&logoColor=black" alt="GeeksForGeeks" />
-</a>
+  <a href="https://rkiranmayisai.github.io/portfolio/" target="_blank">
+    <img src="https://img.shields.io/badge/PORTFOLIO-FF1744?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://github.com/rkiranmayisai" target="_blank">
+    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://leetcode.com/u/rkiranmayisai/" target="_blank">
+    <img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+  <a href="https://www.codechef.com/users/rkiranmayisai" target="_blank">
+    <img src="https://img.shields.io/badge/CODECHEF-8A2BE2?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" />
+  </a>
+  <a href="https://www.geeksforgeeks.org/profile/rkiranmayi36t?tab=activity" target="_blank">
+    <img src="https://img.shields.io/badge/GEEKSFORGEEKS-00E5FF?style=for-the-badge&logo=geeksforgeeks&logoColor=black" alt="GeeksForGeeks" />
+  </a>
 </p>
+
 <br />
-<div style="height: 5px; width: 100%; background: linear-gradient(90deg, #ff1744, #e84393, #8a2be2, #00e5ff, #ff1744); border-radius: 4px;"></div>
-</div>
-<br />
+
 <blockquote align="center">
-<h3><i>“There's nothing more permanent than a temporary hack.”</i></h3>
-<p><b>— Kyle Simpson</b></p>
+  <h3><i>“There's nothing more permanent than a temporary hack.”</i></h3>
+  <p><b>— Kyle Simpson</b></p>
 </blockquote>
+
 <br />
-<table border="0" width="100%">
-<tr>
-<td align="center" style="background: #1f242c; border-left: 6px solid #00e5ff; border-right: 6px solid #ff1744; border-radius: 10px; padding: 12px;">
-<h2 style="color: #00e5ff; margin: 0;">⚡ Interactive Terminal ($ npx rkiranmayisai)</h2>
-</td>
-</tr>
-</table>
+
+<h2 align="center">⚡ Interactive Terminal ($ npx rkiranmayisai)</h2>
+
 <br />
+
 <table border="0" width="100%">
 <tr>
 <td style="background-color: #0d1117; border: 1.5px solid #00e5ff; border-radius: 12px; padding: 20px;">
@@ -67,15 +62,13 @@
 </td>
 </tr>
 </table>
+
 <br />
-<table border="0" width="100%">
-<tr>
-<td align="center" style="background: #1f242c; border-left: 6px solid #ff1744; border-right: 6px solid #e84393; border-radius: 10px; padding: 12px;">
-<h2 style="color: #ff1744; margin: 0;">👩‍💻 Identity Matrix</h2>
-</td>
-</tr>
-</table>
+
+<h2 align="center">👩‍💻 Identity Matrix</h2>
+
 <br />
+
 <table border="0" width="100%">
 <tr>
 <td width="55%" valign="top">
@@ -97,15 +90,13 @@
 </td>
 </tr>
 </table>
+
 <br />
-<table border="0" width="100%">
-<tr>
-<td align="center" style="background: #1f242c; border-left: 6px solid #e84393; border-right: 6px solid #8a2be2; border-radius: 10px; padding: 12px;">
-<h2 style="color: #e84393; margin: 0;">🔄 Daily Engineering Workflow Pipeline</h2>
-</td>
-</tr>
-</table>
+
+<h2 align="center">🔄 Daily Engineering Workflow Pipeline</h2>
+
 <br />
+
 <table border="0" width="100%">
 <tr>
 <td style="background-color: #161b22; border-left: 6px solid #ffa116; padding: 18px; border-radius: 8px;">
@@ -118,7 +109,9 @@
 </td>
 </tr>
 </table>
+
 <br />
+
 <table border="0" width="100%">
 <tr>
 <td style="background-color: #161b22; border-left: 6px solid #ff1744; padding: 18px; border-radius: 8px;">
@@ -131,7 +124,9 @@
 </td>
 </tr>
 </table>
+
 <br />
+
 <table border="0" width="100%">
 <tr>
 <td style="background-color: #161b22; border-left: 6px solid #00e5ff; padding: 18px; border-radius: 8px;">
@@ -144,15 +139,13 @@
 </td>
 </tr>
 </table>
+
 <br />
-<table border="0" width="100%">
-<tr>
-<td align="center" style="background: #1f242c; border-left: 6px solid #8a2be2; border-right: 6px solid #00e5ff; border-radius: 10px; padding: 12px;">
-<h2 style="color: #8a2be2; margin: 0;">⚙️ Tech Stack & Graphic Skill Matrix</h2>
-</td>
-</tr>
-</table>
+
+<h2 align="center">⚙️ Tech Stack & Graphic Skill Matrix</h2>
+
 <br />
+
 <table border="0" width="100%">
 <tr>
 <td width="50%" valign="top">
@@ -194,15 +187,13 @@
 </td>
 </tr>
 </table>
+
 <br />
-<table border="0" width="100%">
-<tr>
-<td align="center" style="background: #1f242c; border-left: 6px solid #ffd700; border-right: 6px solid #ff1744; border-radius: 10px; padding: 12px;">
-<h2 style="color: #ffd700; margin: 0;">🏆 Badges & Competitive Ranks</h2>
-</td>
-</tr>
-</table>
+
+<h2 align="center">🏆 Badges & Competitive Ranks</h2>
+
 <br />
+
 <div align="center">
 <p align="center">
 <img src="https://img.shields.io/badge/GFG_College_Rank-Rank_%232_🏆-FF1744?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
@@ -213,15 +204,13 @@
 <img src="https://img.shields.io/badge/DSA_Problems-500%2B_Solved_🔥-00E5FF?style=for-the-badge&logoColor=black" />
 </p>
 </div>
+
 <br />
-<table border="0" width="100%">
-<tr>
-<td align="center" style="background: #1f242c; border-left: 6px solid #00e5ff; border-right: 6px solid #e84393; border-radius: 10px; padding: 12px;">
-<h2 style="color: #00e5ff; margin: 0;">🚀 Architectural Project Showcase</h2>
-</td>
-</tr>
-</table>
+
+<h2 align="center">🚀 Architectural Project Showcase</h2>
+
 <br />
+
 <table border="0" width="100%">
 <tr>
 <td style="background-color: #161b22; border-left: 5px solid #ff1744; padding: 18px; border-radius: 8px;">
@@ -235,7 +224,9 @@
 </td>
 </tr>
 </table>
+
 <br />
+
 <table border="0" width="100%">
 <tr>
 <td style="background-color: #161b22; border-left: 5px solid #00e5ff; padding: 18px; border-radius: 8px;">
@@ -246,14 +237,6 @@
 <img src="https://img.shields.io/badge/View_Repository-00E5FF?style=flat-square&logo=github&logoColor=black" />
 </a>
 </p>
-</td>
-</tr>
-</table>
-<br /><br />
-<table border="0" width="100%">
-<tr>
-<td align="center" style="background: linear-gradient(135deg, #ff1744 0%, #e84393 30%, #8a2be2 70%, #00e5ff 100%); padding: 25px 20px; border-radius: 12px;">
-<p style="color: #ffffff; font-weight: 700; font-size: 1.05rem; margin: 0;">Created by Reddy Kiranmayi | Always Learning & Building 🚀</p>
 </td>
 </tr>
 </table>
