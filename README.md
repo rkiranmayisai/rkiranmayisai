@@ -1,11 +1,4 @@
-<!-- =======================================================
-  🚀 ULTRA-PREMIUM GITHUB PROFILE README
-  Name: Reddy Kiranmayi (@rkiranmayisai)
-  Theme: Bulletproof Pure HTML Tags (0% Raw Markdown Bugs, 0% Broken Images)
-======================================================= -->
-
 <div align="center">
-  <!-- 🌌 Pure HTML Luxury Multi-Color Gradient Banner -->
   <table border="0" width="100%">
     <tr>
       <td align="center" style="background: linear-gradient(135deg, #ff1744 0%, #e84393 30%, #8a2be2 70%, #00e5ff 100%); padding: 35px 20px; border-radius: 16px;">
@@ -17,7 +10,6 @@
 
   <br /><br />
 
-  <!-- 🎬 LIVE MOVING ANIMATED TYPING SUBTITLE -->
   <div align="center">
     <a href="https://github.com/rkiranmayisai">
       <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2500&pause=800&color=FF1744&center=true&vCenter=true&width=750&lines=%F0%9F%8E%93+B.Tech+CSE+Student+%40+ACE+Engineering+College;%F0%9F%8F%86+GFG+College+Rank+%232+%E2%80%A2+CodeChef+2-Star;%F0%9F%92%BB+Full+Stack+%26+Data+Science+Developer;%F0%9F%9A%80+500%2B+DSA+Problems+Solved+(LeetCode+%2B+GFG)" alt="Live Moving Typing Animation" />
@@ -26,7 +18,6 @@
 
   <br />
 
-  <!-- 🔗 Social & Profile Badges -->
   <p align="center">
     <a href="https://rkiranmayisai.github.io/portfolio/" target="_blank">
       <img src="https://img.shields.io/badge/PORTFOLIO-FF1744?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" />
@@ -46,13 +37,11 @@
   </p>
 
   <br />
-  <!-- Multi-Color Gradient Divider -->
   <div style="height: 5px; width: 100%; background: linear-gradient(90deg, #ff1744, #e84393, #8a2be2, #00e5ff, #ff1744); border-radius: 4px;"></div>
 </div>
 
 <br />
 
-<!-- 💬 FEATURED DEVELOPER QUOTE CARD -->
 <blockquote align="center">
   <h3><i>“There's nothing more permanent than a temporary hack.”</i></h3>
   <p><b>— Kyle Simpson</b></p>
@@ -60,7 +49,6 @@
 
 <br />
 
-<!-- ⚡ UNIQUE CYBERPUNK TERMINAL HEADER -->
 <table border="0" width="100%">
   <tr>
     <td align="center" style="background: #1f242c; border-left: 6px solid #00e5ff; border-right: 6px solid #ff1744; border-radius: 10px; padding: 12px;">
@@ -71,7 +59,6 @@
 
 <br />
 
-<!-- ⚡ UNIQUE HTML CYBERPUNK TERMINAL -->
 <table border="0" width="100%">
   <tr>
     <td style="background-color: #0d1117; border: 1.5px solid #00e5ff; border-radius: 12px; padding: 20px;">
@@ -94,7 +81,6 @@
 
 <br />
 
-<!-- 👩‍💻 IDENTITY MATRIX HEADER -->
 <table border="0" width="100%">
   <tr>
     <td align="center" style="background: #1f242c; border-left: 6px solid #ff1744; border-right: 6px solid #e84393; border-radius: 10px; padding: 12px;">
@@ -105,7 +91,6 @@
 
 <br />
 
-<!-- IDENTITY MATRIX -->
 <table border="0" width="100%">
   <tr>
     <td width="55%" valign="top">
@@ -123,7 +108,6 @@
 };</code></pre>
     </td>
     <td width="45%" align="center" valign="middle" style="padding-left: 15px;">
-      <!-- 🎬 MOVING ANIMATED FEMALE DEVELOPER GIF -->
       <img src="https://cdn.jsdelivr.net/gh/rkiranmayisai/rkiranmayisai@main/coder_girl.gif" width="100%" alt="Animated Female Developer Workstation" />
     </td>
   </tr>
@@ -131,7 +115,6 @@
 
 <br />
 
-<!-- 🔄 DAILY ENGINEERING WORKFLOW PIPELINE HEADER -->
 <table border="0" width="100%">
   <tr>
     <td align="center" style="background: #1f242c; border-left: 6px solid #e84393; border-right: 6px solid #8a2be2; border-radius: 10px; padding: 12px;">
@@ -142,7 +125,6 @@
 
 <br />
 
-<!-- WORKFLOW STEP 1 -->
 <table border="0" width="100%">
   <tr>
     <td style="background-color: #161b22; border-left: 6px solid #ffa116; padding: 18px; border-radius: 8px;">
@@ -158,7 +140,6 @@
 
 <br />
 
-<!-- WORKFLOW STEP 2 -->
 <table border="0" width="100%">
   <tr>
     <td style="background-color: #161b22; border-left: 6px solid #ff1744; padding: 18px; border-radius: 8px;">
@@ -174,7 +155,6 @@
 
 <br />
 
-<!-- WORKFLOW STEP 3 -->
 <table border="0" width="100%">
   <tr>
     <td style="background-color: #161b22; border-left: 6px solid #00e5ff; padding: 18px; border-radius: 8px;">
@@ -190,7 +170,6 @@
 
 <br />
 
-<!-- ⚙️ TECH STACK & GRAPHIC SKILL MATRIX HEADER -->
 <table border="0" width="100%">
   <tr>
     <td align="center" style="background: #1f242c; border-left: 6px solid #8a2be2; border-right: 6px solid #00e5ff; border-radius: 10px; padding: 12px;">
@@ -201,10 +180,8 @@
 
 <br />
 
-<!-- 100% BULLETPROOF PURE HTML TABLE FOR SKILL METERS AND TECH ARSENAL -->
 <table border="0" width="100%">
   <tr>
-    <!-- LEFT SIDE: PROGRESS METERS -->
     <td width="50%" valign="top">
       <h3 style="color: #ff1744;">🔥 Visual Skill Meters</h3>
       <p style="margin-bottom: 12px;">
@@ -224,7 +201,6 @@
       </p>
     </td>
 
-    <!-- RIGHT SIDE: TECH ARSENAL BADGES -->
     <td width="50%" valign="top" align="center">
       <h3 style="color: #00e5ff;">🛠️ Tech Stack Arsenal</h3>
       <p style="margin-bottom: 10px;">
@@ -249,7 +225,6 @@
 
 <br />
 
-<!-- 🏆 BADGES & COMPETITIVE RANKS HEADER -->
 <table border="0" width="100%">
   <tr>
     <td align="center" style="background: #1f242c; border-left: 6px solid #ffd700; border-right: 6px solid #ff1744; border-radius: 10px; padding: 12px;">
@@ -273,7 +248,6 @@
 
 <br />
 
-<!-- 🚀 ARCHITECTURAL PROJECT SHOWCASE HEADER -->
 <table border="0" width="100%">
   <tr>
     <td align="center" style="background: #1f242c; border-left: 6px solid #00e5ff; border-right: 6px solid #e84393; border-radius: 10px; padding: 12px;">
@@ -284,7 +258,6 @@
 
 <br />
 
-<!-- PROJECT 1 -->
 <table border="0" width="100%">
   <tr>
     <td style="background-color: #161b22; border-left: 5px solid #ff1744; padding: 18px; border-radius: 8px;">
@@ -301,7 +274,6 @@
 
 <br />
 
-<!-- PROJECT 2 -->
 <table border="0" width="100%">
   <tr>
     <td style="background-color: #161b22; border-left: 5px solid #00e5ff; padding: 18px; border-radius: 8px;">
@@ -318,7 +290,6 @@
 
 <br /><br />
 
-<!-- PURE HTML LUXURY MULTI-COLOR GRADIENT FOOTER -->
 <table border="0" width="100%">
   <tr>
     <td align="center" style="background: linear-gradient(135deg, #ff1744 0%, #e84393 30%, #8a2be2 70%, #00e5ff 100%); padding: 25px 20px; border-radius: 12px;">
