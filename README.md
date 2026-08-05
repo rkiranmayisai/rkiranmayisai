@@ -35,7 +35,7 @@
 
 <!-- Live Developer Status & Focus Radar -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=1F242C&stroke=50FA7B&strokeWidth=3&text=🟢%20Live%20Developer%20Status%20%26%20Focus%20Radar&fontSize=20&fontColor=50FA7B&height=60" width="100%" />
+  <img src="https://img.shields.io/badge/🟢_LIVE_DEVELOPER_STATUS_%26_FOCUS_RADAR-1F242C?style=for-the-badge&labelColor=1F242C&color=50FA7B" width="100%" />
 </p>
 
 <br />
@@ -54,7 +54,7 @@
 
 <!-- Trophy Showcase Grid -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=1F242C&stroke=FFD700&strokeWidth=3&text=🏆%20Engineering%20Trophy%20%26%20Achievement%20Showcase&fontSize=20&fontColor=FFD700&height=60" width="100%" />
+  <img src="https://img.shields.io/badge/🏆_ENGINEERING_TROPHY_%26_ACHIEVEMENT_SHOWCASE-1F242C?style=for-the-badge&labelColor=1F242C&color=FFD700" width="100%" />
 </p>
 
 <br />
@@ -74,7 +74,7 @@
 
 <!-- Recruiter Quick-Decision Matrix -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=1F242C&stroke=8A2BE2&strokeWidth=3&text=💼%20Recruiter%20Executive%20Decision%20Matrix&fontSize=20&fontColor=8A2BE2&height=60" width="100%" />
+  <img src="https://img.shields.io/badge/💼_RECRUITER_EXECUTIVE_DECISION_MATRIX-1F242C?style=for-the-badge&labelColor=1F242C&color=8A2BE2" width="100%" />
 </p>
 
 <p align="center"><i>Why hire Reddy Kiranmayi for your Engineering Team?</i></p>
@@ -114,7 +114,7 @@
 
 <!-- GitHub & DSA Statistics Card -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=1F242C&stroke=00E5FF&strokeWidth=3&text=📊%20Live%20GitHub%20%26%20Problem%20Solving%20Statistics&fontSize=20&fontColor=00E5FF&height=60" width="100%" />
+  <img src="https://img.shields.io/badge/📊_LIVE_GITHUB_%26_PROBLEM_SOLVING_STATISTICS-1F242C?style=for-the-badge&labelColor=1F242C&color=00E5FF" width="100%" />
 </p>
 
 <br />
@@ -149,7 +149,7 @@
 <br /><br />
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=1F242C&stroke=FF1744&strokeWidth=3&text=👩‍💻%20IDENTITY%20MATRIX&fontSize=20&fontColor=FF1744&height=60" width="100%" />
+  <img src="https://img.shields.io/badge/👩‍💻_IDENTITY_MATRIX-1F242C?style=for-the-badge&labelColor=1F242C&color=FF1744" width="100%" />
 </p>
 
 <br />
@@ -180,7 +180,7 @@
 
 <!-- Futuristic Skill Radar -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=1F242C&stroke=00E5FF&strokeWidth=3&text=⚡%20VISUAL%20SKILL%20RADAR%20%26%20COMPETENCY%20MATRIX&fontSize=20&fontColor=00E5FF&height=60" width="100%" />
+  <img src="https://img.shields.io/badge/⚡_VISUAL_SKILL_RADAR_%26_COMPETENCY_MATRIX-1F242C?style=for-the-badge&labelColor=1F242C&color=00E5FF" width="100%" />
 </p>
 
 <br />
@@ -199,7 +199,7 @@
 <br /><br />
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=1F242C&stroke=E84393&strokeWidth=3&text=🔄%20DAILY%20ENGINEERING%20WORKFLOW%20PIPELINE&fontSize=20&fontColor=E84393&height=60" width="100%" />
+  <img src="https://img.shields.io/badge/🔄_DAILY_ENGINEERING_WORKFLOW_PIPELINE-1F242C?style=for-the-badge&labelColor=1F242C&color=E84393" width="100%" />
 </p>
 
 <br />
@@ -217,7 +217,7 @@
 <br /><br />
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=1F242C&stroke=8A2BE2&strokeWidth=3&text=⚙️%20TECH%20STACK%20ARSENAL%20%26%20SKILL%20MATRIX&fontSize=20&fontColor=8A2BE2&height=60" width="100%" />
+  <img src="https://img.shields.io/badge/⚙️_TECH_STACK_ARSENAL_%26_SKILL_MATRIX-1F242C?style=for-the-badge&labelColor=1F242C&color=8A2BE2" width="100%" />
 </p>
 
 <br />
@@ -240,7 +240,7 @@
 <br /><br />
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=1F242C&stroke=FFD700&strokeWidth=3&text=🏆%20BADGES%20%26%20COMPETITIVE%20RANKS&fontSize=20&fontColor=FFD700&height=60" width="100%" />
+  <img src="https://img.shields.io/badge/🏆_BADGES_%26_COMPETITIVE_RANKS-1F242C?style=for-the-badge&labelColor=1F242C&color=FFD700" width="100%" />
 </p>
 
 <br />
@@ -259,7 +259,7 @@
 <br /><br />
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=1F242C&stroke=FF1744&strokeWidth=3&text=🚀%20ARCHITECTURAL%20PROJECT%20SHOWCASE&fontSize=20&fontColor=FF1744&height=60" width="100%" />
+  <img src="https://img.shields.io/badge/🚀_ARCHITECTURAL_PROJECT_SHOWCASE-1F242C?style=for-the-badge&labelColor=1F242C&color=FF1744" width="100%" />
 </p>
 
 <br />
@@ -295,7 +295,7 @@
 <br /><br />
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=1F242C&stroke=00E5FF&strokeWidth=3&text=📫%20SOCIAL%20%26%20CONNECT%20MATRIX&fontSize=20&fontColor=00E5FF&height=60" width="100%" />
+  <img src="https://img.shields.io/badge/📫_SOCIAL_%26_CONNECT_MATRIX-1F242C?style=for-the-badge&labelColor=1F242C&color=00E5FF" width="100%" />
 </p>
 
 <br />
