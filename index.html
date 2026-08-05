@@ -73,19 +73,6 @@
       flex-direction: column;
       min-height: 100vh;
       transition: background-color 0.3s ease, color 0.3s ease;
-      position: relative;
-    }
-
-    /* Background Canvas Effect */
-    #bgCanvas {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      pointer-events: none;
-      z-index: 0;
-      opacity: 0.25;
     }
 
     header {
@@ -338,18 +325,9 @@
 </head>
 <body>
 
-  <!-- Background Canvas for Matrix Rain / Particle Effect -->
-  <canvas id="bgCanvas"></canvas>
-
   <header>
     <h1>🚀 Ultra-Premium GitHub Profile Studio - Reddy Kiranmayi</h1>
     <div class="header-actions">
-      <!-- Feature 6: Live Background FX Selector -->
-      <select class="select-dropdown" id="fxSelect" onchange="toggleBackgroundFX(this.value)">
-        <option value="matrix">🌧️ Matrix Code Rain FX</option>
-        <option value="stars">✨ Cyberpunk Starfield FX</option>
-        <option value="off">🚫 FX Off</option>
-      </select>
 
       <!-- Preset Layout Template Switcher -->
       <select class="select-dropdown" id="templateSelect" onchange="loadTemplate(this.value)">
@@ -754,46 +732,45 @@
 <br />
 
 <table border="0" width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3 style="color: #ff1744;">🔥 Visual Skill Meters</h3>
-      <p style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/JAVA_%26_DSA-[█████████░]_90%25-FF1744?style=for-the-badge&logo=openjdk&logoColor=white" width="100%" alt="Java" />
-      </p>
-      <p style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/HTML5_%26_CSS3-[████████½░]_85%25-00E5FF?style=for-the-badge&logo=html5&logoColor=black" width="100%" alt="HTML" />
-      </p>
-      <p style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/PYTHON_%26_DATA_SCI-[████████░░]_80%25-FFD700?style=for-the-badge&logo=python&logoColor=black" width="100%" alt="Python" />
-      </p>
-      <p style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/REACT_%26_FRONTEND-[████████░░]_80%25-61DAFB?style=for-the-badge&logo=react&logoColor=black" width="100%" alt="React" />
-      </p>
-      <p style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/NODE_%26_EXPRESS-[███████░░░]_70%25-00E676?style=for-the-badge&logo=nodedotjs&logoColor=white" width="100%" alt="Node" />
-      </p>
-    </td>
-
-    <td width="50%" valign="top" align="center">
-      <h3 style="color: #00e5ff;">🛠️ Tech Stack Arsenal</h3>
-      <p style="margin-bottom: 10px;">
-        <img src="https://img.shields.io/badge/JAVA-FF1744?style=for-the-badge&logo=openjdk&logoColor=white" />
-        <img src="https://img.shields.io/badge/PYTHON-00E5FF?style=for-the-badge&logo=python&logoColor=black" />
-      </p>
-      <p style="margin-bottom: 10px;">
-        <img src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/NODE.JS-8A2BE2?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-      </p>
-      <p style="margin-bottom: 10px;">
-        <img src="https://img.shields.io/badge/PANDAS-E84393?style=for-the-badge&logo=pandas&logoColor=white" />
-        <img src="https://img.shields.io/badge/JAVASCRIPT-FFD700?style=for-the-badge&logo=javascript&logoColor=black" />
-      </p>
-      <p style="margin-bottom: 0;">
-        <img src="https://img.shields.io/badge/MYSQL-00E676?style=for-the-badge&logo=mysql&logoColor=black" />
-        <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white" />
-      </p>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+<h3 style="color: #ff1744;">🔥 Visual Skill Meters</h3>
+<p style="margin-bottom: 12px;">
+<img src="https://img.shields.io/badge/JAVA_%26_DSA-[█████████░]_90%25-FF1744?style=for-the-badge&logo=openjdk&logoColor=white" width="100%" alt="Java" />
+</p>
+<p style="margin-bottom: 12px;">
+<img src="https://img.shields.io/badge/HTML5_%26_CSS3-[████████½░]_85%25-00E5FF?style=for-the-badge&logo=html5&logoColor=black" width="100%" alt="HTML" />
+</p>
+<p style="margin-bottom: 12px;">
+<img src="https://img.shields.io/badge/PYTHON_%26_DATA_SCI-[████████░░]_80%25-FFD700?style=for-the-badge&logo=python&logoColor=black" />
+</p>
+<p style="margin-bottom: 12px;">
+<img src="https://img.shields.io/badge/REACT_%26_FRONTEND-[████████░░]_80%25-61DAFB?style=for-the-badge&logo=react&logoColor=black" width="100%" alt="React" />
+</p>
+<p style="margin-bottom: 12px;">
+<img src="https://img.shields.io/badge/NODE_%26_EXPRESS-[███████░░░]_70%25-00E676?style=for-the-badge&logo=nodedotjs&logoColor=white" width="100%" alt="Node" />
+</p>
+</td>
+<td width="50%" valign="top" align="center">
+<h3 style="color: #00e5ff;">🛠️ Tech Stack Arsenal</h3>
+<p style="margin-bottom: 10px;">
+<img src="https://img.shields.io/badge/JAVA-FF1744?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/PYTHON-00E5FF?style=for-the-badge&logo=python&logoColor=black" />
+</p>
+<p style="margin-bottom: 10px;">
+<img src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/NODE.JS-8A2BE2?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+</p>
+<p style="margin-bottom: 10px;">
+<img src="https://img.shields.io/badge/PANDAS-E84393?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/JAVASCRIPT-FFD700?style=for-the-badge&logo=javascript&logoColor=black" />
+</p>
+<p style="margin-bottom: 0;">
+<img src="https://img.shields.io/badge/MYSQL-00E676?style=for-the-badge&logo=mysql&logoColor=black" />
+<img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+</td>
+</tr>
 </table>
 
 <br />
@@ -1123,101 +1100,9 @@
       setTimeout(() => toast.classList.remove('show'), 2500);
     }
 
-    /* Matrix Rain & Particle Canvas Background Animation */
-    let canvas, ctx, fxMode = 'matrix', animId;
-    let drops = [], chars = "0101010101ABCDEFGHIJKLMNOPQRSTUVWXYZ<>/{}[]=$#@!";
-    let particles = [];
-
-    function initFX() {
-      canvas = document.getElementById('bgCanvas');
-      ctx = canvas.getContext('2d');
-      resizeCanvas();
-      window.addEventListener('resize', resizeCanvas);
-      startFX('matrix');
-    }
-
-    function resizeCanvas() {
-      if (!canvas) return;
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-      const columns = Math.floor(canvas.width / 16);
-      drops = Array(columns).fill(1);
-      initParticles();
-    }
-
-    function initParticles() {
-      particles = [];
-      for (let i = 0; i < 60; i++) {
-        particles.push({
-          x: Math.random() * canvas.width,
-          y: Math.random() * canvas.height,
-          radius: Math.random() * 2 + 1,
-          vx: (Math.random() - 0.5) * 0.8,
-          vy: (Math.random() - 0.5) * 0.8,
-          color: Math.random() > 0.5 ? '#00e5ff' : '#ff1744'
-        });
-      }
-    }
-
-    function drawMatrix() {
-      ctx.fillStyle = 'rgba(13, 17, 23, 0.08)';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = '#00e5ff';
-      ctx.font = '14px "Fira Code", monospace';
-
-      for (let i = 0; i < drops.length; i++) {
-        const text = chars.charAt(Math.floor(Math.random() * chars.length));
-        ctx.fillText(text, i * 16, drops[i] * 16);
-        if (drops[i] * 16 > canvas.height && Math.random() > 0.975) {
-          drops[i] = 0;
-        }
-        drops[i]++;
-      }
-    }
-
-    function drawStars() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      particles.forEach(p => {
-        p.x += p.vx;
-        p.y += p.vy;
-        if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
-        if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-        ctx.fillStyle = p.color;
-        ctx.fill();
-      });
-    }
-
-    function loopFX() {
-      if (fxMode === 'matrix') {
-        drawMatrix();
-        animId = requestAnimationFrame(loopFX);
-      } else if (fxMode === 'stars') {
-        drawStars();
-        animId = requestAnimationFrame(loopFX);
-      } else {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-      }
-    }
-
-    function toggleBackgroundFX(mode) {
-      fxMode = mode;
-      if (animId) cancelAnimationFrame(animId);
-      if (mode !== 'off') loopFX();
-      else ctx.clearRect(0, 0, canvas.width, canvas.height);
-      showToast('✨ Background FX: ' + mode.toUpperCase());
-    }
-
-    function startFX(mode) {
-      fxMode = mode;
-      loopFX();
-    }
-
     // Render immediately when DOM is ready
     window.addEventListener('DOMContentLoaded', () => {
       renderPreview();
-      initFX();
     });
   </script>
 </body>
