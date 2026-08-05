@@ -23,27 +23,17 @@
     </a>
   </p>
   <br />
-  <div style="height: 4px; width: 100%; background-color: #ff1744; border-radius: 4px;"></div>
+  <div style="height: 4px; width: 100%; background: linear-gradient(90deg, #ff1744, #e84393, #8a2be2, #00e5ff); border-radius: 4px;"></div>
 </div>
 
-  <br />
-  <div style="height: 5px; width: 100%; background: linear-gradient(90deg, #ff1744, #e84393, #8a2be2, #00e5ff, #ff1744); border-radius: 4px;"></div>
-</div>
-
-<br />
+<br /><br />
 
 <!-- Live Developer Status & Focus Radar -->
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
-  <tr>
-    <td align="center" style="background: #1f242c; border-left: 6px solid #50fa7b; border-right: 6px solid #00e5ff; border-radius: 10px; padding: 12px;">
-      <h2 style="color: #50fa7b; margin: 0;">🟢 Live Developer Status & Focus Radar</h2>
-    </td>
-  </tr>
-</table>
+<h2 align="center">🟢 Live Developer Status & Focus Radar</h2>
 
 <br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
+<table border="0" width="100%">
   <tr>
     <td style="background-color: #161b22; border-left: 5px solid #50fa7b; padding: 16px; border-radius: 8px;">
       <p style="margin-bottom: 8px; font-size: 0.95rem;">
@@ -59,20 +49,14 @@
   </tr>
 </table>
 
-<br />
+<br /><br />
 
 <!-- Bulletproof Native HTML 3D Trophy Showcase Grid -->
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
-  <tr>
-    <td align="center" style="background: #1f242c; border-left: 6px solid #ffd700; border-right: 6px solid #00e5ff; border-radius: 10px; padding: 12px;">
-      <h2 style="color: #ffd700; margin: 0;">🏆 Engineering Trophy & Achievement Showcase</h2>
-    </td>
-  </tr>
-</table>
+<h2 align="center">🏆 Engineering Trophy & Achievement Showcase</h2>
 
 <br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
+<table border="0" width="100%">
   <tr>
     <td width="25%" style="background-color: #161b22; border-top: 4px solid #ffd700; border-radius: 8px; padding: 15px; text-align: center;">
       <h1 style="margin: 0; font-size: 2rem;">🏆</h1>
@@ -97,21 +81,17 @@
   </tr>
 </table>
 
-<br />
+<br /><br />
 
 <!-- Recruiter Quick-Decision Matrix -->
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
-  <tr>
-    <td align="center" style="background: linear-gradient(135deg, #ff1744 0%, #8a2be2 50%, #00e5ff 100%); padding: 18px; border-radius: 12px;">
-      <h2 style="color: #ffffff; margin: 0;">💼 Recruiter Executive Decision Matrix</h2>
-      <p style="color: #ffffff; margin-top: 5px; margin-bottom: 0; font-size: 0.9rem;">Why hire Reddy Kiranmayi for your Engineering Team?</p>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <h2 align="center">💼 Recruiter Executive Decision Matrix</h2>
+  <p align="center"><i>Why hire Reddy Kiranmayi for your Engineering Team?</i></p>
+</div>
 
 <br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
+<table border="0" width="100%">
   <tr>
     <td style="background-color: #161b22; border: 1.5px solid #8a2be2; padding: 18px; border-radius: 8px;">
       <p style="margin-bottom: 10px; font-size: 0.92rem; color: #c9d1d9;"><b>🏆 Academic Excellence:</b> GFG College Rank #2 & CodeChef 2-Star ⭐</p>
@@ -140,17 +120,11 @@
 <br />
 
 <!-- Bulletproof Native HTML GitHub & DSA Statistics Card -->
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
-  <tr>
-    <td align="center" style="background: #1f242c; border-left: 6px solid #8a2be2; border-right: 6px solid #ff1744; border-radius: 10px; padding: 12px;">
-      <h2 style="color: #8a2be2; margin: 0;">📊 Live GitHub & Problem Solving Statistics</h2>
-    </td>
-  </tr>
-</table>
+<h2 align="center">📊 Live GitHub & Problem Solving Statistics</h2>
 
 <br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
+<table border="0" width="100%">
   <tr>
     <td width="50%" style="background-color: #161b22; border: 1.5px solid #30363d; padding: 20px; border-radius: 10px;" valign="top">
       <h3 style="color: #00e5ff; margin-top: 0; margin-bottom: 15px;">🐙 GitHub Contributions</h3>
@@ -189,21 +163,13 @@
   </tr>
 </table>
 
-<br />
+<br /><br />
+
+<h2 align="center">👩‍💻 Identity Matrix</h2>
 
 <br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
-  <tr>
-    <td align="center" style="background: #1f242c; border-left: 6px solid #ff1744; border-right: 6px solid #e84393; border-radius: 10px; padding: 12px;">
-      <h2 style="color: #ff1744; margin: 0;">👩‍💻 Identity Matrix</h2>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
+<table border="0" width="100%">
   <tr>
     <td width="55%" valign="top">
       <pre style="background-color: #161b22; padding: 16px; border-radius: 8px; font-family: monospace; font-size: 0.88rem; color: #c9d1d9; margin: 0;"><code><span style="color: #ff1744;">const</span> <span style="color: #00e5ff;">kiranmayi</span> = {
@@ -225,20 +191,14 @@
   </tr>
 </table>
 
-<br />
+<br /><br />
 
 <!-- Futuristic Skill Radar -->
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
-  <tr>
-    <td align="center" style="background: #1f242c; border-left: 6px solid #00e5ff; border-right: 6px solid #8a2be2; border-radius: 10px; padding: 12px;">
-      <h2 style="color: #00e5ff; margin: 0;">⚡ Visual Skill Radar & Competency Matrix</h2>
-    </td>
-  </tr>
-</table>
+<h2 align="center">⚡ Visual Skill Radar & Competency Matrix</h2>
 
 <br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
+<table border="0" width="100%">
   <tr>
     <td width="50%" style="background-color: #161b22; padding: 16px; border-radius: 8px;" valign="top">
       <h4 style="color: #ff1744; margin-bottom: 10px;">Backend & Systems Engineering (92%)</h4>
@@ -263,19 +223,13 @@
   </tr>
 </table>
 
-<br />
+<br /><br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
-  <tr>
-    <td align="center" style="background: #1f242c; border-left: 6px solid #e84393; border-right: 6px solid #8a2be2; border-radius: 10px; padding: 12px;">
-      <h2 style="color: #e84393; margin: 0;">🔄 Daily Engineering Workflow Pipeline</h2>
-    </td>
-  </tr>
-</table>
+<h2 align="center">🔄 Daily Engineering Workflow Pipeline</h2>
 
 <br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
+<table border="0" width="100%">
   <tr>
     <td style="background-color: #161b22; border-left: 6px solid #ffa116; padding: 18px; border-radius: 8px;">
       <h3 style="color: #ffa116; margin-top: 0;">🌅 MORNING: DSA Grind (09:00 AM)</h3>
@@ -290,7 +244,7 @@
 
 <br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
+<table border="0" width="100%">
   <tr>
     <td style="background-color: #161b22; border-left: 6px solid #ff1744; padding: 18px; border-radius: 8px;">
       <h3 style="color: #ff1744; margin-top: 0;">💻 AFTERNOON: Full Stack Development (02:00 PM)</h3>
@@ -305,7 +259,7 @@
 
 <br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
+<table border="0" width="100%">
   <tr>
     <td style="background-color: #161b22; border-left: 6px solid #00e5ff; padding: 18px; border-radius: 8px;">
       <h3 style="color: #00e5ff; margin-top: 0;">🌙 EVENING: Data Science & Analytics (07:00 PM)</h3>
@@ -318,19 +272,13 @@
   </tr>
 </table>
 
-<br />
+<br /><br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
-  <tr>
-    <td align="center" style="background: #1f242c; border-left: 6px solid #8a2be2; border-right: 6px solid #00e5ff; border-radius: 10px; padding: 12px;">
-      <h2 style="color: #8a2be2; margin: 0;">⚙️ Tech Stack & Graphic Skill Matrix</h2>
-    </td>
-  </tr>
-</table>
+<h2 align="center">⚙️ Tech Stack Arsenal & Skill Matrix</h2>
 
 <br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
+<table border="0" width="100%">
 <tr>
 <td width="50%" valign="top">
 <h3 style="color: #ff1744;">🔥 Visual Skill Meters</h3>
@@ -341,7 +289,7 @@
 <img src="https://img.shields.io/badge/HTML5_%26_CSS3-[████████½░]_85%25-00E5FF?style=for-the-badge&logo=html5&logoColor=black" width="100%" alt="HTML" />
 </p>
 <p style="margin-bottom: 12px;">
-<img src="https://img.shields.io/badge/PYTHON_%26_DATA_SCI-[████████░░]_80%25-FFD700?style=for-the-badge&logo=python&logoColor=black" width="100%" alt="Python" />
+<img src="https://img.shields.io/badge/PYTHON_%26_DATA_SCI-[████████░░]_80%25-FFD700?style=for-the-badge&logo=python&logoColor=black" />
 </p>
 <p style="margin-bottom: 12px;">
 <img src="https://img.shields.io/badge/REACT_%26_FRONTEND-[████████░░]_80%25-61DAFB?style=for-the-badge&logo=react&logoColor=black" width="100%" alt="React" />
@@ -372,15 +320,9 @@
 </tr>
 </table>
 
-<br />
+<br /><br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
-  <tr>
-    <td align="center" style="background: #1f242c; border-left: 6px solid #ffd700; border-right: 6px solid #ff1744; border-radius: 10px; padding: 12px;">
-      <h2 style="color: #ffd700; margin: 0;">🏆 Badges & Competitive Ranks</h2>
-    </td>
-  </tr>
-</table>
+<h2 align="center">🏆 Badges & Competitive Ranks</h2>
 
 <br />
 
@@ -395,19 +337,13 @@
   </p>
 </div>
 
-<br />
+<br /><br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
-  <tr>
-    <td align="center" style="background: #1f242c; border-left: 6px solid #00e5ff; border-right: 6px solid #8a2be2; border-radius: 10px; padding: 12px;">
-      <h2 style="color: #00e5ff; margin: 0;">⭐ Featured Pinned Repositories</h2>
-    </td>
-  </tr>
-</table>
+<h2 align="center">⭐ Featured Pinned Repositories</h2>
 
 <br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
+<table border="0" width="100%">
   <tr>
     <td width="50%" style="background-color: #161b22; border: 1.5px solid #ff1744; border-radius: 8px; padding: 16px;" valign="top">
       <h3 style="margin-top: 0;"><a href="https://github.com/rkiranmayisai/detection-of-crime-hotspot-website" target="_blank" style="color: #ff1744; text-decoration: none;">🚨 detection-of-crime-hotspot-website 🔗</a></h3>
@@ -428,19 +364,13 @@
   </tr>
 </table>
 
-<br />
+<br /><br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
-  <tr>
-    <td align="center" style="background: #1f242c; border-left: 6px solid #00e5ff; border-right: 6px solid #e84393; border-radius: 10px; padding: 12px;">
-      <h2 style="color: #00e5ff; margin: 0;">🚀 Architectural Project Showcase</h2>
-    </td>
-  </tr>
-</table>
+<h2 align="center">🚀 Architectural Project Showcase</h2>
 
 <br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
+<table border="0" width="100%">
   <tr>
     <td style="background-color: #161b22; border-left: 5px solid #ff1744; padding: 18px; border-radius: 8px;">
       <h3 style="margin-top: 0;"><a href="https://rkiranmayisai.github.io/detection-of-crime-hotspot-website/" target="_blank" style="color: #ff1744; text-decoration: none;">🚨 Project 1: Crime Hotspot Detection using Crowdsourced Data 🔗</a></h3>
@@ -461,7 +391,7 @@
 
 <br />
 
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
+<table border="0" width="100%">
   <tr>
     <td style="background-color: #161b22; border-left: 5px solid #00e5ff; padding: 18px; border-radius: 8px;">
       <h3 style="margin-top: 0;"><a href="https://rkiranmayisai.github.io/portfolio/" target="_blank" style="color: #00e5ff; text-decoration: none;">🌐 Project 2: Personal Portfolio Website 🔗</a></h3>
@@ -480,18 +410,10 @@
   </tr>
 </table>
 
-<br />
-
 <br /><br />
 
 <!-- Social & Connect Matrix Banner -->
-<table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
-  <tr>
-    <td align="center" style="background: #1f242c; border-left: 6px solid #ff1744; border-right: 6px solid #00e5ff; border-radius: 10px; padding: 12px;">
-      <h2 style="color: #ff1744; margin: 0;">📫 Social & Connect Matrix</h2>
-    </td>
-  </tr>
-</table>
+<h2 align="center">📫 Social & Connect Matrix</h2>
 
 <br />
 
