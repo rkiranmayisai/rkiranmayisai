@@ -1,14 +1,19 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,30,50&height=200&section=header&text=⚡%20REDDY%20KIRANMAYI%20⚡&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Data%20Science%20Enthusiast%20%7C%20500%2B%20DSA%20Solved&descSize=18&descAlignY=62" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,30,50&height=200&section=header&text=⚡%20REDDY%20KIRANMAYI%20⚡&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=🎓%20B.Tech%20CSE%20Student%20%7C%20🏆%20GFG%20Rank%20%232%20%7C%20⭐%20CodeChef%202-Star&descSize=16&descAlignY=62" width="100%" alt="Animated Waving Header Banner" />
+</div>
+
+<br />
+
+<!-- Live Animated Typing Movement -->
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00E5FF&center=true&vCenter=true&width=750&height=50&lines=Full+Stack+Developer+%7C+Data+Science+Enthusiast;🎓+B.Tech+CSE+Student+%40+ACE+Engineering+College;🏆+GFG+College+Rank+%232+%7C+⭐+CodeChef+2-Star;⚡+500%2B+Algorithmic+DSA+Problems+Solved" alt="Typing SVG Animation" />
+  </a>
 </div>
 
 <br />
 
 <div align="center">
-  <p align="center">
-    🎓 <b>B.Tech CSE Student @ ACE Engineering College</b> &nbsp;•&nbsp; 🏆 <b>GFG Rank #2</b> &nbsp;•&nbsp; ⭐ <b>CodeChef 2-Star</b>
-  </p>
-  
   <p align="center">
     <a href="https://rkiranmayisai.github.io/portfolio/" target="_blank">
       <img src="https://img.shields.io/badge/PORTFOLIO-FF1744?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" />
