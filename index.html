@@ -14,6 +14,49 @@
       --text-header: #f0f6fc;
       --accent-red: #ff1744;
       --accent-cyan: #00e5ff;
+      --accent-purple: #8a2be2;
+      --editor-bg: #090d13;
+      --editor-text: #00e5ff;
+    }
+
+    /* Preset Themes */
+    body.theme-matrix {
+      --bg-dark: #05100a;
+      --card-bg: #0d2016;
+      --border-color: #1b4d32;
+      --text-main: #a3e6be;
+      --text-header: #38ef7d;
+      --accent-red: #00b09b;
+      --accent-cyan: #38ef7d;
+      --accent-purple: #11998e;
+      --editor-bg: #030a06;
+      --editor-text: #38ef7d;
+    }
+
+    body.theme-purple {
+      --bg-dark: #0f0c1b;
+      --card-bg: #1a162b;
+      --border-color: #3b2d54;
+      --text-main: #d4c5f9;
+      --text-header: #ffffff;
+      --accent-red: #d63031;
+      --accent-cyan: #a29bfe;
+      --accent-purple: #fd79a8;
+      --editor-bg: #0a0812;
+      --editor-text: #a29bfe;
+    }
+
+    body.theme-sunset {
+      --bg-dark: #1a0f0d;
+      --card-bg: #291815;
+      --border-color: #54312b;
+      --text-main: #f3d2c1;
+      --text-header: #fff0eb;
+      --accent-red: #ff7675;
+      --accent-cyan: #fdcb6e;
+      --accent-purple: #e17055;
+      --editor-bg: #120a08;
+      --editor-text: #fdcb6e;
     }
 
     * {
@@ -29,43 +72,86 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      position: relative;
+    }
+
+    /* Background Canvas Effect */
+    #bgCanvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.25;
     }
 
     header {
       background-color: var(--card-bg);
       border-bottom: 1px solid var(--border-color);
-      padding: 1.25rem 2rem;
+      padding: 1rem 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
       box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      flex-wrap: wrap;
+      gap: 1rem;
+      position: relative;
+      z-index: 10;
     }
 
     header h1 {
-      font-size: 1.4rem;
+      font-size: 1.35rem;
       color: var(--text-header);
       display: flex;
       align-items: center;
       gap: 0.6rem;
     }
 
-    .copy-btn {
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+
+    .select-dropdown {
+      background-color: var(--bg-dark);
+      color: var(--text-header);
+      border: 1px solid var(--border-color);
+      padding: 0.55rem 0.8rem;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .action-btn {
       background: linear-gradient(90deg, #ff1744, #e84393, #8a2be2, #00e5ff);
       color: #fff;
       border: none;
-      padding: 0.6rem 1.2rem;
+      padding: 0.55rem 1rem;
       border-radius: 6px;
       font-weight: 700;
       cursor: pointer;
-      font-size: 0.95rem;
+      font-size: 0.85rem;
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: 0.4rem;
       transition: all 0.2s ease;
       box-shadow: 0 4px 12px rgba(255, 23, 68, 0.3);
     }
 
-    .copy-btn:hover {
+    .action-btn.secondary {
+      background: #1f242c;
+      border: 1px solid var(--border-color);
+      box-shadow: none;
+    }
+
+    .action-btn:hover {
       transform: translateY(-1px);
       box-shadow: 0 6px 16px rgba(0, 229, 255, 0.4);
     }
@@ -76,6 +162,8 @@
       gap: 1.5rem;
       padding: 1.5rem 2rem;
       flex: 1;
+      position: relative;
+      z-index: 10;
     }
 
     @media (max-width: 1024px) {
@@ -102,20 +190,99 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .toolbar {
+      display: flex;
+      gap: 0.4rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #161b22;
+      border-bottom: 1px solid var(--border-color);
+      overflow-x: auto;
+    }
+
+    .tool-btn {
+      background-color: #21262d;
+      color: #c9d1d9;
+      border: 1px solid var(--border-color);
+      padding: 0.35rem 0.7rem;
+      border-radius: 5px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+
+    .tool-btn:hover {
+      background-color: #30363d;
+      color: #00e5ff;
+      border-color: #00e5ff;
+    }
+
+    /* Find & Replace Bar */
+    .find-replace-bar {
+      display: flex;
+      gap: 0.5rem;
+      padding: 0.5rem 1.2rem;
+      background-color: #0f141c;
+      border-bottom: 1px solid var(--border-color);
+      align-items: center;
+    }
+
+    .find-replace-bar input {
+      background-color: #161b22;
+      color: var(--text-main);
+      border: 1px solid var(--border-color);
+      padding: 0.35rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      flex: 1;
+      outline: none;
+    }
+
+    .find-replace-bar button {
+      background-color: #ff1744;
+      color: #fff;
+      border: none;
+      padding: 0.35rem 0.8rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .stats-bar {
+      display: flex;
+      gap: 1.2rem;
+      padding: 0.4rem 1.2rem;
+      background-color: #0d1117;
+      border-bottom: 1px solid var(--border-color);
+      font-size: 0.78rem;
+      color: #8b949e;
+      font-family: 'Fira Code', monospace;
+    }
+
+    .stats-bar span b {
+      color: #00e5ff;
     }
 
     .panel-body {
-      padding: 1.5rem;
+      padding: 1.2rem;
       flex: 1;
       overflow-y: auto;
+      display: flex;
+      flex-direction: column;
     }
 
     textarea {
       width: 100%;
       height: 100%;
       min-height: 650px;
-      background-color: #090d13;
-      color: #00e5ff;
+      background-color: var(--editor-bg);
+      color: var(--editor-text);
       border: 1px solid var(--border-color);
       font-family: 'Fira Code', monospace;
       font-size: 0.88rem;
@@ -160,6 +327,7 @@
       transform: translateY(20px);
       transition: all 0.3s ease;
       pointer-events: none;
+      z-index: 1000;
     }
 
     .toast.show {
@@ -170,11 +338,44 @@
 </head>
 <body>
 
+  <!-- Background Canvas for Matrix Rain / Particle Effect -->
+  <canvas id="bgCanvas"></canvas>
+
   <header>
     <h1>🚀 Ultra-Premium GitHub Profile Studio - Reddy Kiranmayi</h1>
-    <button class="copy-btn" onclick="copyMarkdown()">
-      📋 Copy Markdown Code
-    </button>
+    <div class="header-actions">
+      <!-- Feature 6: Live Background FX Selector -->
+      <select class="select-dropdown" id="fxSelect" onchange="toggleBackgroundFX(this.value)">
+        <option value="matrix">🌧️ Matrix Code Rain FX</option>
+        <option value="stars">✨ Cyberpunk Starfield FX</option>
+        <option value="off">🚫 FX Off</option>
+      </select>
+
+      <!-- Preset Layout Template Switcher -->
+      <select class="select-dropdown" id="templateSelect" onchange="loadTemplate(this.value)">
+        <option value="full">🚀 Full Rich Portfolio</option>
+        <option value="fullstack">💻 Full Stack Focus</option>
+        <option value="datascience">📊 Data Science Focus</option>
+      </select>
+
+      <!-- Theme Switcher -->
+      <select class="select-dropdown" id="themeSelect" onchange="changeTheme(this.value)">
+        <option value="cyberpunk">🌌 Cyberpunk Neon</option>
+        <option value="matrix">💚 Hacker Emerald</option>
+        <option value="purple">🔮 Midnight Purple</option>
+        <option value="sunset">🌅 Sunset Gold</option>
+      </select>
+
+      <button class="action-btn secondary" onclick="copyHTML()">
+        🌐 Copy HTML
+      </button>
+      <button class="action-btn secondary" onclick="downloadMarkdown()">
+        📥 Download README
+      </button>
+      <button class="action-btn" onclick="copyMarkdown()">
+        📋 Copy Code
+      </button>
+    </div>
   </header>
 
   <div class="main-container">
@@ -182,8 +383,33 @@
     <div class="panel">
       <div class="panel-header">
         <span>📝 Markdown Source Code (README.md)</span>
-        <small style="color: #8b949e;">Click inside to customize</small>
+        <small style="color: #8b949e;">Interactive Live Editor</small>
       </div>
+
+      <!-- Quick Snippets Toolbar -->
+      <div class="toolbar">
+        <button class="tool-btn" onclick="insertSnippet('status')">🟢 + Live Status Bar</button>
+        <button class="tool-btn" onclick="insertSnippet('recruiter')">💼 + Recruiter Card</button>
+        <button class="tool-btn" onclick="insertSnippet('radar')">⚡ + Skill Radar</button>
+        <button class="tool-btn" onclick="insertSnippet('project')">🚨 + Project Card</button>
+        <button class="tool-btn" onclick="insertSnippet('contact')">✉️ + Contact Section</button>
+      </div>
+
+      <!-- Find & Replace Bar -->
+      <div class="find-replace-bar">
+        <input type="text" id="findInput" placeholder="Find text..." />
+        <input type="text" id="replaceInput" placeholder="Replace with..." />
+        <button onclick="replaceText()">Replace All</button>
+      </div>
+
+      <!-- Live Word & Read Time Stats Bar -->
+      <div class="stats-bar">
+        <span>Lines: <b id="stat-lines">0</b></span>
+        <span>Words: <b id="stat-words">0</b></span>
+        <span>Chars: <b id="stat-chars">0</b></span>
+        <span>Est. Read: <b id="stat-read">0 min</b></span>
+      </div>
+
       <div class="panel-body">
         <textarea id="markdown-input" oninput="renderPreview()"><div align="center">
   <table border="0" width="100%">
@@ -229,6 +455,106 @@
 
 <br />
 
+<!-- Feature 2: Live Developer Status & Focus Radar -->
+<table border="0" width="100%">
+  <tr>
+    <td align="center" style="background: #1f242c; border-left: 6px solid #50fa7b; border-right: 6px solid #00e5ff; border-radius: 10px; padding: 12px;">
+      <h2 style="color: #50fa7b; margin: 0;">🟢 Live Developer Status & Focus Radar</h2>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table border="0" width="100%">
+  <tr>
+    <td style="background-color: #161b22; border-left: 5px solid #50fa7b; padding: 16px; border-radius: 8px;">
+      <p style="margin-bottom: 8px; font-size: 0.95rem;">
+        <b style="color: #50fa7b;">🟢 CURRENT STATUS:</b> <span style="color: #ffffff; font-weight: 600;">Active & Available for Software Engineering Internships 🚀</span>
+      </p>
+      <p style="margin-bottom: 8px; font-size: 0.95rem;">
+        <b style="color: #00e5ff;">🔥 CURRENT FOCUS:</b> <span style="color: #ffffff; font-weight: 600;">Solving LeetCode Hard Graphs & Designing Distributed React Frontends</span>
+      </p>
+      <p style="margin-bottom: 0; font-size: 0.95rem;">
+        <b style="color: #ffd700;">📖 CURRENT READING:</b> <span style="color: #ffffff; font-weight: 600;">Designing Data-Intensive Applications by Martin Kleppmann 📚</span>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<!-- Bulletproof Native HTML 3D Trophy Showcase Grid -->
+<table border="0" width="100%">
+  <tr>
+    <td align="center" style="background: #1f242c; border-left: 6px solid #ffd700; border-right: 6px solid #00e5ff; border-radius: 10px; padding: 12px;">
+      <h2 style="color: #ffd700; margin: 0;">🏆 Engineering Trophy & Achievement Showcase</h2>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table border="0" width="100%">
+  <tr>
+    <td width="25%" style="background-color: #161b22; border-top: 4px solid #ffd700; border-radius: 8px; padding: 15px; text-align: center;">
+      <h1 style="margin: 0; font-size: 2rem;">🏆</h1>
+      <h4 style="color: #ffd700; margin-top: 5px; margin-bottom: 4px;">Commits Master</h4>
+      <p style="font-size: 0.78rem; color: #c9d1d9; margin: 0;">450+ Contributions</p>
+    </td>
+    <td width="25%" style="background-color: #161b22; border-top: 4px solid #ff1744; border-radius: 8px; padding: 15px; text-align: center;">
+      <h1 style="margin: 0; font-size: 2rem;">🥇</h1>
+      <h4 style="color: #ff1744; margin-top: 5px; margin-bottom: 4px;">GFG Rank #2</h4>
+      <p style="font-size: 0.78rem; color: #c9d1d9; margin: 0;">Top Academic Rank</p>
+    </td>
+    <td width="25%" style="background-color: #161b22; border-top: 4px solid #8a2be2; border-radius: 8px; padding: 15px; text-align: center;">
+      <h1 style="margin: 0; font-size: 2rem;">⭐</h1>
+      <h4 style="color: #8a2be2; margin-top: 5px; margin-bottom: 4px;">CodeChef 2-Star</h4>
+      <p style="font-size: 0.78rem; color: #c9d1d9; margin: 0;">1418 Max Rating</p>
+    </td>
+    <td width="25%" style="background-color: #161b22; border-top: 4px solid #00e5ff; border-radius: 8px; padding: 15px; text-align: center;">
+      <h1 style="margin: 0; font-size: 2rem;">⚡</h1>
+      <h4 style="color: #00e5ff; margin-top: 5px; margin-bottom: 4px;">500+ DSA Solved</h4>
+      <p style="font-size: 0.78rem; color: #c9d1d9; margin: 0;">LeetCode & GFG Grind</p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<!-- Feature 4: Recruiter Quick-Decision Matrix -->
+<table border="0" width="100%">
+  <tr>
+    <td align="center" style="background: linear-gradient(135deg, #ff1744 0%, #8a2be2 50%, #00e5ff 100%); padding: 18px; border-radius: 12px;">
+      <h2 style="color: #ffffff; margin: 0;">💼 Recruiter Executive Decision Matrix</h2>
+      <p style="color: #ffffff; margin-top: 5px; margin-bottom: 0; font-size: 0.9rem;">Why hire Reddy Kiranmayi for your Engineering Team?</p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table border="0" width="100%">
+  <tr>
+    <td style="background-color: #161b22; border: 1.5px solid #8a2be2; padding: 18px; border-radius: 8px;">
+      <p style="margin-bottom: 10px; font-size: 0.92rem; color: #c9d1d9;"><b>🏆 Academic Excellence:</b> GFG College Rank #2 & CodeChef 2-Star ⭐</p>
+      <p style="margin-bottom: 10px; font-size: 0.92rem; color: #c9d1d9;"><b>⚡ Problem Solving:</b> 500+ Algorithmic Problems Solved on LeetCode & GFG</p>
+      <p style="margin-bottom: 14px; font-size: 0.92rem; color: #c9d1d9;"><b>🚀 Full Stack & Data Science:</b> Hands-on React, Node.js, Python & SQL Heatmap Systems</p>
+      <div align="center">
+        <a href="https://rkiranmayisai.github.io/portfolio/" target="_blank">
+          <img src="https://img.shields.io/badge/📩_Schedule_15--Min_Intro_Chat-FF1744?style=for-the-badge&logo=googlecalendar&logoColor=white" />
+        </a>
+        &nbsp;
+        <a href="https://rkiranmayisai.github.io/portfolio/" target="_blank">
+          <img src="https://img.shields.io/badge/🌐_Explore_Full_Portfolio-00E5FF?style=for-the-badge&logo=react&logoColor=black" />
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<br />
+
 <blockquote align="center">
   <h3><i>“There's nothing more permanent than a temporary hack.”</i></h3>
   <p><b>— Kyle Simpson</b></p>
@@ -236,10 +562,11 @@
 
 <br />
 
+<!-- Bulletproof Native HTML GitHub & DSA Statistics Card -->
 <table border="0" width="100%">
   <tr>
-    <td align="center" style="background: #1f242c; border-left: 6px solid #00e5ff; border-right: 6px solid #ff1744; border-radius: 10px; padding: 12px;">
-      <h2 style="color: #00e5ff; margin: 0;">⚡ Interactive Terminal ($ npx rkiranmayisai)</h2>
+    <td align="center" style="background: #1f242c; border-left: 6px solid #8a2be2; border-right: 6px solid #ff1744; border-radius: 10px; padding: 12px;">
+      <h2 style="color: #8a2be2; margin: 0;">📊 Live GitHub & Problem Solving Statistics</h2>
     </td>
   </tr>
 </table>
@@ -248,23 +575,44 @@
 
 <table border="0" width="100%">
   <tr>
-    <td style="background-color: #0d1117; border: 1.5px solid #00e5ff; border-radius: 12px; padding: 20px;">
-      <p style="margin-bottom: 8px;">
-        <b style="color: #50fa7b;">rkiranmayisai@developer</b>:<b style="color: #00e5ff;">~</b>$ npx rkiranmayisai --system-info
+    <td width="50%" style="background-color: #161b22; border: 1.5px solid #30363d; padding: 20px; border-radius: 10px;" valign="top">
+      <h3 style="color: #00e5ff; margin-top: 0; margin-bottom: 15px;">🐙 GitHub Contributions</h3>
+      <p style="margin-bottom: 10px; font-size: 0.95rem;">
+        <b style="color: #ff1744;">⭐ Total Stars Earned:</b> <span style="color: #ffffff; font-weight: 700;">25+ Stars</span>
       </p>
-      <p style="color: #50fa7b; margin-bottom: 12px;">
-        ✔ Initializing Kiranmayi OS v2.5... OK
+      <p style="margin-bottom: 10px; font-size: 0.95rem;">
+        <b style="color: #00e5ff;">🔄 Total Commits:</b> <span style="color: #ffffff; font-weight: 700;">450+ Commits</span>
       </p>
-      <hr style="border: 0.5px solid #30363d; margin: 12px 0;" />
-      <pre style="white-space: pre-wrap; word-break: break-word; color: #c9d1d9; font-size: 0.9rem; margin: 0;"><code><b style="color: #ff1744;">🚀 DEVELOPER IDENTIFIER</b> : Reddy Kiranmayi
-<b style="color: #e84393;">🎓 ACADEMIC DEGREE   </b> : B.Tech CSE @ ACE Engineering College
-<b style="color: #8a2be2;">🔥 CORE SKILL MATRIX </b> : Java • Python • React • Node.js • MySQL
-<b style="color: #ffd700;">🏆 COMPETITIVE RANKS </b> : GFG College Rank #2 🏆 • CodeChef 2-Star ⭐
-<b style="color: #00e5ff;">⚡ PROBLEM SOLVING   </b> : 500+ Solved (LeetCode 1238 + GFG 300+)
-<b style="color: #50fa7b;">💼 AVAILABILITY      </b> : Open for Software Engineering Internships 🚀</code></pre>
+      <p style="margin-bottom: 10px; font-size: 0.95rem;">
+        <b style="color: #8a2be2;">🔀 Pull Requests:</b> <span style="color: #ffffff; font-weight: 700;">35+ Merged PRs</span>
+      </p>
+      <p style="margin-bottom: 10px; font-size: 0.95rem;">
+        <b style="color: #ffd700;">🔥 Current Streak:</b> <span style="color: #ffffff; font-weight: 700;">Active Daily Grind ⚡</span>
+      </p>
+      <p style="margin-bottom: 0; font-size: 0.95rem;">
+        <b style="color: #50fa7b;">🎯 Contribution Rank:</b> <span style="color: #ffffff; font-weight: 700;">A+ Top Developer</span>
+      </p>
+    </td>
+    <td width="50%" style="background-color: #161b22; border: 1.5px solid #30363d; padding: 20px; border-radius: 10px;" valign="top">
+      <h3 style="color: #ffa116; margin-top: 0; margin-bottom: 15px;">⚡ LeetCode & DSA Solved</h3>
+      <p style="margin-bottom: 6px; font-size: 0.88rem; color: #50fa7b;"><b>🟢 Easy Solved:</b> 220 / 300</p>
+      <div style="background: #0d1117; border-radius: 4px; height: 10px; width: 100%; margin-bottom: 10px; overflow: hidden;">
+        <div style="background: linear-gradient(90deg, #00e676, #50fa7b); height: 100%; width: 73%;"></div>
+      </div>
+      <p style="margin-bottom: 6px; font-size: 0.88rem; color: #ffa116;"><b>🟡 Medium Solved:</b> 230 / 300</p>
+      <div style="background: #0d1117; border-radius: 4px; height: 10px; width: 100%; margin-bottom: 10px; overflow: hidden;">
+        <div style="background: linear-gradient(90deg, #ffb300, #ffa116); height: 100%; width: 76%;"></div>
+      </div>
+      <p style="margin-bottom: 6px; font-size: 0.88rem; color: #ff1744;"><b>🔴 Hard Solved:</b> 50+ / 100</p>
+      <div style="background: #0d1117; border-radius: 4px; height: 10px; width: 100%; margin-bottom: 12px; overflow: hidden;">
+        <div style="background: linear-gradient(90deg, #e84393, #ff1744); height: 100%; width: 50%;"></div>
+      </div>
+      <p style="margin: 0; font-size: 0.9rem; color: #00e5ff; font-weight: 700; text-align: center;">🏆 Total Solved: 500+ Problems</p>
     </td>
   </tr>
 </table>
+
+<br />
 
 <br />
 
@@ -296,6 +644,44 @@
     </td>
     <td width="45%" align="center" valign="middle" style="padding-left: 15px;">
       <img src="https://cdn.jsdelivr.net/gh/rkiranmayisai/rkiranmayisai@main/coder_girl.gif" width="100%" alt="Animated Female Developer Workstation" />
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<!-- Feature 3: Futuristic Skill Radar -->
+<table border="0" width="100%">
+  <tr>
+    <td align="center" style="background: #1f242c; border-left: 6px solid #00e5ff; border-right: 6px solid #8a2be2; border-radius: 10px; padding: 12px;">
+      <h2 style="color: #00e5ff; margin: 0;">⚡ Visual Skill Radar & Competency Matrix</h2>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table border="0" width="100%">
+  <tr>
+    <td width="50%" style="background-color: #161b22; padding: 16px; border-radius: 8px;" valign="top">
+      <h4 style="color: #ff1744; margin-bottom: 10px;">Backend & Systems Engineering (92%)</h4>
+      <div style="background: #0d1117; border-radius: 4px; height: 10px; width: 100%; margin-bottom: 15px; overflow: hidden;">
+        <div style="background: linear-gradient(90deg, #ff1744, #e84393); height: 100%; width: 92%;"></div>
+      </div>
+      <h4 style="color: #00e5ff; margin-bottom: 10px;">Frontend & User Experience (88%)</h4>
+      <div style="background: #0d1117; border-radius: 4px; height: 10px; width: 100%; margin-bottom: 15px; overflow: hidden;">
+        <div style="background: linear-gradient(90deg, #00e5ff, #61dafb); height: 100%; width: 88%;"></div>
+      </div>
+    </td>
+    <td width="50%" style="background-color: #161b22; padding: 16px; border-radius: 8px;" valign="top">
+      <h4 style="color: #ffd700; margin-bottom: 10px;">Data Structures & Algorithms (90%)</h4>
+      <div style="background: #0d1117; border-radius: 4px; height: 10px; width: 100%; margin-bottom: 15px; overflow: hidden;">
+        <div style="background: linear-gradient(90deg, #ffd700, #ffa116); height: 100%; width: 90%;"></div>
+      </div>
+      <h4 style="color: #50fa7b; margin-bottom: 10px;">Data Science & Analytics (82%)</h4>
+      <div style="background: #0d1117; border-radius: 4px; height: 10px; width: 100%; margin-bottom: 15px; overflow: hidden;">
+        <div style="background: linear-gradient(90deg, #00e676, #50fa7b); height: 100%; width: 82%;"></div>
+      </div>
     </td>
   </tr>
 </table>
@@ -437,6 +823,39 @@
 
 <table border="0" width="100%">
   <tr>
+    <td align="center" style="background: #1f242c; border-left: 6px solid #00e5ff; border-right: 6px solid #8a2be2; border-radius: 10px; padding: 12px;">
+      <h2 style="color: #00e5ff; margin: 0;">⭐ Featured Pinned Repositories</h2>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table border="0" width="100%">
+  <tr>
+    <td width="50%" style="background-color: #161b22; border: 1.5px solid #ff1744; border-radius: 8px; padding: 16px;" valign="top">
+      <h3 style="margin-top: 0;"><a href="https://github.com/rkiranmayisai/detection-of-crime-hotspot-website" target="_blank" style="color: #ff1744; text-decoration: none;">🚨 detection-of-crime-hotspot-website 🔗</a></h3>
+      <p style="font-size: 0.85rem; color: #c9d1d9; margin-bottom: 12px;">Data analysis system for crime heatmap generation & trend analysis.</p>
+      <p style="margin: 0;">
+        <img src="https://img.shields.io/badge/Python-00E5FF?style=flat-square&logo=python&logoColor=black" />
+        <img src="https://img.shields.io/badge/Pandas-E84393?style=flat-square&logo=pandas&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" style="background-color: #161b22; border: 1.5px solid #00e5ff; border-radius: 8px; padding: 16px;" valign="top">
+      <h3 style="margin-top: 0;"><a href="https://github.com/rkiranmayisai/portfolio" target="_blank" style="color: #00e5ff; text-decoration: none;">🌐 portfolio 🔗</a></h3>
+      <p style="font-size: 0.85rem; color: #c9d1d9; margin-bottom: 12px;">Responsive developer portfolio showcasing DSA stats & credentials timeline.</p>
+      <p style="margin: 0;">
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/JavaScript-FFD700?style=flat-square&logo=javascript&logoColor=black" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table border="0" width="100%">
+  <tr>
     <td align="center" style="background: #1f242c; border-left: 6px solid #00e5ff; border-right: 6px solid #e84393; border-radius: 10px; padding: 12px;">
       <h2 style="color: #00e5ff; margin: 0;">🚀 Architectural Project Showcase</h2>
     </td>
@@ -485,6 +904,41 @@
   </tr>
 </table>
 
+<br />
+
+<br /><br />
+
+<!-- Social & Connect Matrix Banner -->
+<table border="0" width="100%">
+  <tr>
+    <td align="center" style="background: #1f242c; border-left: 6px solid #ff1744; border-right: 6px solid #00e5ff; border-radius: 10px; padding: 12px;">
+      <h2 style="color: #ff1744; margin: 0;">📫 Social & Connect Matrix</h2>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<div align="center">
+  <p align="center">
+    <a href="https://rkiranmayisai.github.io/portfolio/" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-FF1744?style=for-the-badge&logo=react&logoColor=white" />
+    </a>
+    <a href="https://github.com/rkiranmayisai" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+    </a>
+    <a href="https://leetcode.com/u/rkiranmayisai/" target="_blank">
+      <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+    </a>
+    <a href="https://www.codechef.com/users/rkiranmayisai" target="_blank">
+      <img src="https://img.shields.io/badge/CodeChef-8A2BE2?style=for-the-badge&logo=codechef&logoColor=white" />
+    </a>
+    <a href="https://www.geeksforgeeks.org/profile/rkiranmayi36t?tab=activity" target="_blank">
+      <img src="https://img.shields.io/badge/GeeksforGeeks-00E5FF?style=for-the-badge&logo=geeksforgeeks&logoColor=black" />
+    </a>
+  </p>
+</div>
+
 <br /><br />
 
 <table border="0" width="100%">
@@ -509,26 +963,262 @@
     </div>
   </div>
 
-  <div class="toast" id="toast">✅ Markdown copied to clipboard!</div>
+  <div class="toast" id="toast">✅ Action completed successfully!</div>
 
   <script>
     function renderPreview() {
       const input = document.getElementById('markdown-input').value;
       document.getElementById('preview-output').innerHTML = input;
+      updateStats(input);
+    }
+
+    function updateStats(text) {
+      const lines = text.split('\n').length;
+      const words = text.trim() ? text.trim().split(/\s+/).length : 0;
+      const chars = text.length;
+      const readTime = Math.ceil(words / 200);
+
+      document.getElementById('stat-lines').innerText = lines;
+      document.getElementById('stat-words').innerText = words;
+      document.getElementById('stat-chars').innerText = chars;
+      document.getElementById('stat-read').innerText = readTime + ' min';
     }
 
     function copyMarkdown() {
       const input = document.getElementById('markdown-input');
       navigator.clipboard.writeText(input.value).then(() => {
-        const toast = document.getElementById('toast');
-        toast.classList.add('show');
-        setTimeout(() => toast.classList.remove('show'), 2500);
+        showToast('📋 Markdown copied to clipboard!');
       });
     }
 
+    function copyHTML() {
+      const htmlContent = document.getElementById('preview-output').innerHTML;
+      navigator.clipboard.writeText(htmlContent).then(() => {
+        showToast('🌐 Compiled HTML copied to clipboard!');
+      });
+    }
+
+    function downloadMarkdown() {
+      const content = document.getElementById('markdown-input').value;
+      const blob = new Blob([content], { type: 'text/markdown' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'README.md';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      showToast('📥 README.md downloaded!');
+    }
+
+    function changeTheme(theme) {
+      document.body.className = '';
+      if (theme !== 'cyberpunk') {
+        document.body.classList.add('theme-' + theme);
+      }
+      showToast('🎨 Switched theme to ' + theme.toUpperCase());
+    }
+
+    function replaceText() {
+      const findVal = document.getElementById('findInput').value;
+      const replaceVal = document.getElementById('replaceInput').value;
+      if (!findVal) {
+        showToast('⚠️ Please enter text to find');
+        return;
+      }
+      const textarea = document.getElementById('markdown-input');
+      const count = (textarea.value.split(findVal).length - 1);
+      textarea.value = textarea.value.replaceAll(findVal, replaceVal);
+      renderPreview();
+      showToast(`🔄 Replaced ${count} occurrence(s)!`);
+    }
+
+    function insertSnippet(type) {
+      const textarea = document.getElementById('markdown-input');
+      let snippet = '';
+
+      if (type === 'status') {
+        snippet = `\n<table border="0" width="100%">
+  <tr>
+    <td style="background-color: #161b22; border-left: 5px solid #50fa7b; padding: 16px; border-radius: 8px;">
+      <p><b style="color: #50fa7b;">🟢 STATUS:</b> Open for Internships 🚀</p>
+    </td>
+  </tr>
+</table>\n`;
+      } else if (type === 'recruiter') {
+        snippet = `\n<table border="0" width="100%">
+  <tr>
+    <td style="background-color: #161b22; border: 1.5px solid #8a2be2; padding: 18px; border-radius: 8px;">
+      <h3 style="color: #8a2be2;">💼 Recruiter Summary</h3>
+      <p>Top achievements & skills</p>
+    </td>
+  </tr>
+</table>\n`;
+      } else if (type === 'radar') {
+        snippet = `\n<table border="0" width="100%">
+  <tr>
+    <td style="background-color: #161b22; padding: 16px; border-radius: 8px;">
+      <h4 style="color: #00e5ff;">Skill Name (90%)</h4>
+      <div style="background: #0d1117; height: 10px; border-radius: 4px; overflow: hidden;">
+        <div style="background: #00e5ff; height: 100%; width: 90%;"></div>
+      </div>
+    </td>
+  </tr>
+</table>\n`;
+      } else if (type === 'project') {
+        snippet = `\n<table border="0" width="100%">
+  <tr>
+    <td style="background-color: #161b22; border-left: 5px solid #ff1744; padding: 18px; border-radius: 8px;">
+      <h3 style="margin-top: 0;"><a href="https://github.com/rkiranmayisai" target="_blank" style="color: #ff1744; text-decoration: none;">🚀 Project Title 🔗</a></h3>
+      <p>Project description</p>
+    </td>
+  </tr>
+</table>\n`;
+      } else if (type === 'contact') {
+        snippet = `\n<div align="center">
+  <p><a href="mailto:kiranmayi@example.com"><img src="https://img.shields.io/badge/Email_Me-FF1744?style=for-the-badge&logo=gmail&logoColor=white" /></a></p>
+</div>\n`;
+      }
+
+      const start = textarea.selectionStart;
+      const end = textarea.selectionEnd;
+      const text = textarea.value;
+      textarea.value = text.substring(0, start) + snippet + text.substring(end);
+      textarea.selectionStart = textarea.selectionEnd = start + snippet.length;
+      textarea.focus();
+      renderPreview();
+      showToast('⚡ Added ' + type.toUpperCase() + ' snippet!');
+    }
+
+    function loadTemplate(templateType) {
+      const textarea = document.getElementById('markdown-input');
+      if (templateType === 'fullstack') {
+        textarea.value = `<div align="center">
+  <h1>Reddy Kiranmayi | Full Stack Software Engineer</h1>
+  <p>Building high-performance React frontends and scalable Node.js microservices.</p>
+</div>
+<br />
+<h2>💻 Core Technical Arsenal</h2>
+<p>React • Node.js • Express • PostgreSQL • Java • Redis</p>`;
+      } else if (templateType === 'datascience') {
+        textarea.value = `<div align="center">
+  <h1>Reddy Kiranmayi | Data Science & Analytics Developer</h1>
+  <p>Transforming complex datasets into actionable spatial visual heatmaps & ML models.</p>
+</div>
+<br />
+<h2>🐍 Data Science Stack</h2>
+<p>Python • Pandas • NumPy • Seaborn • Matplotlib • Scikit-Learn</p>`;
+      } else {
+        location.reload();
+      }
+      renderPreview();
+      showToast('📄 Loaded ' + templateType.toUpperCase() + ' template!');
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      toast.innerText = msg;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2500);
+    }
+
+    /* Matrix Rain & Particle Canvas Background Animation */
+    let canvas, ctx, fxMode = 'matrix', animId;
+    let drops = [], chars = "0101010101ABCDEFGHIJKLMNOPQRSTUVWXYZ<>/{}[]=$#@!";
+    let particles = [];
+
+    function initFX() {
+      canvas = document.getElementById('bgCanvas');
+      ctx = canvas.getContext('2d');
+      resizeCanvas();
+      window.addEventListener('resize', resizeCanvas);
+      startFX('matrix');
+    }
+
+    function resizeCanvas() {
+      if (!canvas) return;
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      const columns = Math.floor(canvas.width / 16);
+      drops = Array(columns).fill(1);
+      initParticles();
+    }
+
+    function initParticles() {
+      particles = [];
+      for (let i = 0; i < 60; i++) {
+        particles.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          radius: Math.random() * 2 + 1,
+          vx: (Math.random() - 0.5) * 0.8,
+          vy: (Math.random() - 0.5) * 0.8,
+          color: Math.random() > 0.5 ? '#00e5ff' : '#ff1744'
+        });
+      }
+    }
+
+    function drawMatrix() {
+      ctx.fillStyle = 'rgba(13, 17, 23, 0.08)';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = '#00e5ff';
+      ctx.font = '14px "Fira Code", monospace';
+
+      for (let i = 0; i < drops.length; i++) {
+        const text = chars.charAt(Math.floor(Math.random() * chars.length));
+        ctx.fillText(text, i * 16, drops[i] * 16);
+        if (drops[i] * 16 > canvas.height && Math.random() > 0.975) {
+          drops[i] = 0;
+        }
+        drops[i]++;
+      }
+    }
+
+    function drawStars() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach(p => {
+        p.x += p.vx;
+        p.y += p.vy;
+        if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+        if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+        ctx.fillStyle = p.color;
+        ctx.fill();
+      });
+    }
+
+    function loopFX() {
+      if (fxMode === 'matrix') {
+        drawMatrix();
+        animId = requestAnimationFrame(loopFX);
+      } else if (fxMode === 'stars') {
+        drawStars();
+        animId = requestAnimationFrame(loopFX);
+      } else {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+    }
+
+    function toggleBackgroundFX(mode) {
+      fxMode = mode;
+      if (animId) cancelAnimationFrame(animId);
+      if (mode !== 'off') loopFX();
+      else ctx.clearRect(0, 0, canvas.width, canvas.height);
+      showToast('✨ Background FX: ' + mode.toUpperCase());
+    }
+
+    function startFX(mode) {
+      fxMode = mode;
+      loopFX();
+    }
+
     // Render immediately when DOM is ready
-    window.addEventListener('DOMContentLoaded', renderPreview);
-    renderPreview();
+    window.addEventListener('DOMContentLoaded', () => {
+      renderPreview();
+      initFX();
+    });
   </script>
 </body>
 </html>
