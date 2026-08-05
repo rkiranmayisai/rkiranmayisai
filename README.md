@@ -214,12 +214,17 @@
 <table border="0" width="100%">
 <tr>
 <td style="background-color: #161b22; border-left: 5px solid #ff1744; padding: 18px; border-radius: 8px;">
-<h3 style="color: #ff1744; margin-top: 0;">🚨 Project 1: Crime Hotspot Detection using Crowdsourced Data</h3>
+<h3 style="margin-top: 0;"><a href="https://rkiranmayisai.github.io/detection-of-crime-hotspot-website/" target="_blank" style="color: #ff1744; text-decoration: none;">🚨 Project 1: Crime Hotspot Detection using Crowdsourced Data 🔗</a></h3>
 <p>Data analysis system using Pandas, Seaborn & Matplotlib for dataset preprocessing, trend analysis, and crime heatmap generation.</p>
+<br />
 <p>
-<a href="https://github.com/rkiranmayisai/detection-of-crime-hotspot-website" target="_blank">
-<img src="https://img.shields.io/badge/View_Repository-FF1744?style=flat-square&logo=github&logoColor=white" />
-</a>
+  <a href="https://rkiranmayisai.github.io/detection-of-crime-hotspot-website/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Open_Live_Website-FF1744?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Open Website" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/rkiranmayisai/detection-of-crime-hotspot-website" target="_blank">
+    <img src="https://img.shields.io/badge/💻_View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+  </a>
 </p>
 </td>
 </tr>
@@ -230,12 +235,17 @@
 <table border="0" width="100%">
 <tr>
 <td style="background-color: #161b22; border-left: 5px solid #00e5ff; padding: 18px; border-radius: 8px;">
-<h3 style="color: #00e5ff; margin-top: 0;">🌐 Project 2: Personal Portfolio Website</h3>
+<h3 style="margin-top: 0;"><a href="https://rkiranmayisai.github.io/portfolio/" target="_blank" style="color: #00e5ff; text-decoration: none;">🌐 Project 2: Personal Portfolio Website 🔗</a></h3>
 <p>Responsive personal portfolio site with interactive credentials timeline, DSA stats, and project showcase.</p>
+<br />
 <p>
-<a href="https://github.com/rkiranmayisai/portfolio" target="_blank">
-<img src="https://img.shields.io/badge/View_Repository-00E5FF?style=flat-square&logo=github&logoColor=black" />
-</a>
+  <a href="https://rkiranmayisai.github.io/portfolio/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Open_Live_Website-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Open Website" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/rkiranmayisai/portfolio" target="_blank">
+    <img src="https://img.shields.io/badge/💻_View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+  </a>
 </p>
 </td>
 </tr>
