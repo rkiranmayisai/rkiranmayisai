@@ -1,21 +1,10 @@
 <div align="center">
-  <table border="0" width="100%" style="border: none !important; border-collapse: collapse;">
-    <tr style="border: none !important;">
-      <td align="center" style="border: none !important; background: linear-gradient(135deg, #ff1744 0%, #e84393 30%, #8a2be2 70%, #00e5ff 100%); padding: 35px 20px; border-radius: 16px;">
-        <h1 style="color: #ffffff; font-size: 2.6rem; font-family: sans-serif; font-weight: 800; margin: 0; text-shadow: 0 4px 12px rgba(0,0,0,0.5);">Reddy Kiranmayi</h1>
-        <p style="color: #ffffff; font-size: 1.1rem; font-weight: 600; margin-top: 8px; margin-bottom: 0;">Full Stack Developer & Data Science Enthusiast</p>
-      </td>
-    </tr>
-  </table>
-
-  <div align="center">
-    <a href="https://github.com/rkiranmayisai">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&duration=2500&pause=800&color=FF1744&center=true&vCenter=true&width=600&lines=%F0%9F%8E%93+B.Tech+CSE+Student+%40+ACE+Engineering+College;%F0%9F%8F%86+GFG+College+Rank+%232+%E2%80%A2+CodeChef+2-Star;%F0%9F%92%BB+Full+Stack+%26+Data+Science+Developer;%F0%9F%9A%80+500%2B+DSA+Problems+Solved+(LeetCode+%2B+GFG)" alt="Live Moving Typing Animation" />
-    </a>
-  </div>
-
+  <h1 align="center">⚡ REDDY KIRANMAYI</h1>
+  <h3 align="center"><b>Full Stack Developer & Data Science Enthusiast</b></h3>
+  <p align="center">
+    🎓 <b>B.Tech CSE Student @ ACE Engineering College</b> &nbsp;•&nbsp; 🏆 <b>GFG Rank #2</b> &nbsp;•&nbsp; ⭐ <b>CodeChef 2-Star</b>
+  </p>
   <br />
-
   <p align="center">
     <a href="https://rkiranmayisai.github.io/portfolio/" target="_blank">
       <img src="https://img.shields.io/badge/PORTFOLIO-FF1744?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" />
@@ -33,6 +22,9 @@
       <img src="https://img.shields.io/badge/GEEKSFORGEEKS-00E5FF?style=for-the-badge&logo=geeksforgeeks&logoColor=black" alt="GeeksForGeeks" />
     </a>
   </p>
+  <br />
+  <div style="height: 4px; width: 100%; background-color: #ff1744; border-radius: 4px;"></div>
+</div>
 
   <br />
   <div style="height: 5px; width: 100%; background: linear-gradient(90deg, #ff1744, #e84393, #8a2be2, #00e5ff, #ff1744); border-radius: 4px;"></div>
