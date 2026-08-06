@@ -14,7 +14,7 @@
 
   <!-- Dynamic Animated Shell Terminal Subtitle -->
   <a href="https://rkiranmayisai.github.io/portfolio/" target="_blank">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2500&pause=1000&color=00F2FE&center=true&vCenter=true&width=700&lines=%24+git+clone+https%3A%2F%2Fgithub.com%2Frkiranmayisai%2Fportfolio;%24+python+-m+ai_diagnostics+--mode%3Dhigh_precision;%24+leetcode+solve+--tag%3Dgraph_algorithms;🚀+Status%3A+Building+Impactful+AI+%26+Web+Solutions..." alt="Terminal Typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2500&pause=1000&color=00F2FE&center=true&vCenter=true&width=700&lines=%24%20git%20clone%20https%3A//github.com/rkiranmayisai/portfolio;%24%20python%20-m%20ai_diagnostics%20--mode%3Dhigh_precision;%24%20leetcode%20solve%20--tag%3Dgraph_algorithms;%F0%9F%9A%80%20Status%3A%20Building%20Impactful%20AI%20%26%20Web%20Solutions..." alt="Terminal Typing" />
   </a>
 
   <br/><br/>
@@ -231,7 +231,7 @@ const kiranmayi = {
     <img src="https://img.shields.io/badge/GitHub_Repositories-15+-0d1117?style=for-the-badge&logo=github&logoColor=white" />
     <img src="https://img.shields.io/badge/LeetCode_Solved-200+-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
     <img src="https://img.shields.io/badge/GFG_Solved-300+-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
-    <img src="https://img.shields.io/badge/CodeChef_Rating-1418_(2★)-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+    <img src="https://img.shields.io/badge/CodeChef_Rating-1418_(2%E2%98%85)-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
   </p>
 
 </div>
@@ -321,12 +321,7 @@ const kiranmayi = {
 
 <br/><br/>
 
-<!-- UNIQUE FEATURE 4: ⚡ Dynamic Random Tech Quote Widget -->
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random Tech Quote" />
-</div>
 
-<br/><br/>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=rkiranmayisai&color=f43f5e&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
