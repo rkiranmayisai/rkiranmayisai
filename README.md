@@ -86,7 +86,7 @@ const kiranmayi = {
 
 <!-- Premium Full-Width Developer Artwork Banner -->
 <div align="center">
-  <img src="./developer_illustration.jpg" width="100%" alt="Reddy Kiranmayi - Developer Illustration" style="border-radius: 14px; box-shadow: 0 12px 35px rgba(0,0,0,0.6); border: 1px solid #30363d;" />
+  <img src="./developer_illustration.gif" width="100%" alt="Reddy Kiranmayi - Developer Illustration" style="border-radius: 14px; box-shadow: 0 12px 35px rgba(0,0,0,0.6); border: 1px solid #30363d;" />
 </div>
 
 <br/>
