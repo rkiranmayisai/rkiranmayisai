@@ -5,11 +5,11 @@ import os
 with open("README.md", "r", encoding="utf-8") as f:
     readme_content = f.read()
 
-# Replace header banner image path with base64 data URI for local preview
-for media_name in ["header_banner.jpg"]:
+# Replace image paths with base64 data URIs for local preview
+for media_name in ["header_banner.jpg", "developer_illustration.gif"]:
     if os.path.exists(media_name):
         with open(media_name, "rb") as media_f:
-            ext = "jpeg" if media_name.endswith(".jpg") else media_name.split('.')[-1]
+            ext = "jpeg" if media_name.endswith(".jpg") else "gif"
             media_b64 = base64.b64encode(media_f.read()).decode('utf-8')
             data_uri = f"data:image/{ext};base64,{media_b64}"
             readme_content = readme_content.replace(f"./{media_name}", data_uri)
@@ -45,7 +45,7 @@ html_content = f"""<!DOCTYPE html>
             border-radius: 8px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
         }}
-        .markdown-body video, .markdown-body img {{
+        .markdown-body img {{
             max-width: 100%;
             border-radius: 12px;
             box-shadow: 0 8px 24px rgba(0,0,0,0.4);
@@ -59,12 +59,6 @@ html_content = f"""<!DOCTYPE html>
         const rawMarkdown = {json.dumps(readme_content)};
         document.getElementById('content').innerHTML = marked.parse(rawMarkdown);
         hljs.highlightAll();
-
-        // Autoplay raw video elements
-        document.querySelectorAll('video').forEach(v => {{
-            v.muted = true;
-            v.play().catch(e => console.log('Autoplay handled:', e));
-        }});
     </script>
 </body>
 </html>
@@ -73,4 +67,4 @@ html_content = f"""<!DOCTYPE html>
 with open("preview.html", "w", encoding="utf-8") as f:
     f.write(html_content)
 
-print("preview.html created successfully with exact raw original MP4 video!")
+print("preview.html created successfully with crisp 1080p short animation loop!")
