@@ -41,9 +41,17 @@
       <img src="https://img.shields.io/badge/🏆_CODECHEF-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef"/>
     </a>
     &nbsp;
-    <a href="mailto:r.kiranmayisai@gmail.com">
-      <img src="https://img.shields.io/badge/✉️_GET_IN_TOUCH-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+    &nbsp;
+    <a href="https://komarev.com/ghpvc/?username=rkiranmayisai">
+      <img src="https://komarev.com/ghpvc/?username=rkiranmayisai&style=for-the-badge&color=00f2fe" alt="Profile Views" />
     </a>
+  </p>
+
+  <br/>
+
+  <!-- GitHub Profile Trophies -->
+  <p align="center">
+    <img src="https://github-profile-trophy.vercel.app/?username=rkiranmayisai&theme=onedark&column=7&margin-w=10&margin-h=10&no-bg=true" alt="Trophies" />
   </p>
 
 </div>
