@@ -47,13 +47,6 @@
     </a>
   </p>
 
-  <br/>
-
-  <!-- GitHub Profile Trophies -->
-  <p align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=rkiranmayisai&theme=onedark&column=7&margin-w=10&margin-h=10&no-bg=true" alt="Trophies" />
-  </p>
-
 </div>
 
 <br/>
