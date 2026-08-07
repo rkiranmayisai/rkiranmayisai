@@ -86,7 +86,7 @@ const kiranmayi = {
 
 <!-- Premium Full-Width Developer Artwork Banner -->
 <div align="center">
-  <video width="100%" autoplay loop muted playsinline src="./developer_illustration.mp4" style="border-radius: 14px; box-shadow: 0 12px 35px rgba(0,0,0,0.6); border: 1px solid #30363d; pointer-events: none;"></video>
+  <img src="./developer_illustration.gif" width="100%" alt="Reddy Kiranmayi - Developer Illustration" style="border-radius: 14px; box-shadow: 0 12px 35px rgba(0,0,0,0.6); border: 1px solid #30363d;" />
 </div>
 
 <br/>
